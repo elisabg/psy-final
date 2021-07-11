@@ -9,3 +9,29 @@
 // and has to call magpie.findNextView() eventually to proceed to the next view (or the next trial in this view),
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
+
+//customized first screen without title
+
+const screen1_intro_customized = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 10,
+		name: 'item part 1',
+		text: `first sentence`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+
+
+
+
+// customized validitiy task

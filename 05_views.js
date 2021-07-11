@@ -48,16 +48,34 @@ const instructions = magpieViews.view_generator("instructions", {
 
 // MY trials
 
-const qud = magpieViews.view_generator("key_press", {
+// First slide of item
+const qud = magpieViews.view_generator("intro",{
   trials: 1,
   name: 'qud',
-  // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
+  title: '',
   text: `First Sentence`,
   buttonText: 'next'
 });
 
 
+// customized self pace reading task
+/*
+const mod = magpieViews.view_generator("self_paced_reading", {
+	sentence: ' Hello | my | name | is | Elisa',
+	option1: 'Yes',
+	option2: 'no'
+	}
+);
 
+// validity task
+
+const thirds = magpieViews.view_generator('rating_scale',{
+    optionLeft: 'disagree',
+    optionRight: 'agree',
+    question: "Ignorance Inference"
+
+})
+*/
 
 
 
@@ -136,4 +154,4 @@ const forced_choice_2A = magpieViews.view_generator("forced_choice", {
 
 // There are many more templates available:
 // forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
-// key_press, self_paced_reading and self_paced_reading_rating_scale
+// key_press, self_paced_rading and self_paced_reading_rating_scale
