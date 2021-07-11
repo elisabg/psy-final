@@ -16,7 +16,7 @@ const screen1_intro_customized = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
-		trials: 10,
+		trials: 1,
 		name: 'item part 1',
 		text: `first sentence`,
 	},
@@ -35,3 +35,33 @@ const screen1_intro_customized = magpieViews.view_generator(
 
 
 // customized validitiy task
+
+
+
+const self_paced_reading = magpieViews.view_generator("self_paced_reading", {
+	// This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+	trials: trial_info_self.length,
+	// name should be identical to the variable name
+	name: 'self_paced_reading',
+	data: trial_info,
+	// you can add custom functions at different stages through a view's life cycle
+	// hook: {
+	//     after_response_enabled: check_response
+	// }
+  },
+  {
+	answer_container_generator: function (config, CT) {
+		return 0
+   }
+}
+
+  /*
+  {
+	
+        stimulus_container_generator: stimulus_container_generators.self-paced-reading,
+        answer_container_generator: answer_container_generators.one_button,
+        handle_response_function: handle_response_functions.self-paced-reading
+  }
+*/
+  
+);

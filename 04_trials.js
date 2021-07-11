@@ -1,6 +1,6 @@
 // In this file you can specify the trial data for your experiment
 
-
+/*
 const trial_info = {
     forced_choice: [
         {
@@ -19,11 +19,11 @@ const trial_info = {
         }
     ]
 };
+*/
 
 
 
-/*
-const trial_info_self = [
+const trial_info = [
     {
         QUD: "The judge asks: 'What did you see under the bed?' The witness responds",
         //picture: "images/all-false3.png",
@@ -40,4 +40,3 @@ const trial_info_self = [
         //optionRight: "Leave it"
     }
 ];
-*/

@@ -93,8 +93,8 @@ const self_paced_reading = magpieViews.view_generator("self_paced_reading", {
   //     after_response_enabled: check_response
   // }
 });
-
 */
+
 
 
 
