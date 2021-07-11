@@ -74,10 +74,27 @@ const thirds = magpieViews.view_generator('rating_scale',{
     optionRight: 'agree',
     question: "Ignorance Inference"
 
-})
+});
+
 */
 
 
+
+
+/*
+const self_paced_reading = magpieViews.view_generator("self_paced_reading", {
+  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+  trials: trial_info_self.length,
+  // name should be identical to the variable name
+  name: 'self_paced_reading',
+  data: trial_info_self,
+  // you can add custom functions at different stages through a view's life cycle
+  // hook: {
+  //     after_response_enabled: check_response
+  // }
+});
+
+*/
 
 
 

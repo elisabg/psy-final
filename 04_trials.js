@@ -19,3 +19,25 @@ const trial_info = {
         }
     ]
 };
+
+
+
+/*
+const trial_info_self = [
+    {
+        QUD: "The judge asks: 'What did you see under the bed?' The witness responds",
+        //picture: "images/all-false3.png",
+        help_text: 'SPACE',
+        sentence: "all | of the | yellow marbles | are | inside | the case.'",
+        //question: "Should you bring Johnny this box or not?",
+        //optionLeft: "Not justified at all",
+        //optionRight: "Strongly justified",
+    },
+    {
+        question: "Should you bring Johnny this box or not?",
+        sentence: "some | of the | black marbles | are | inside | the case.'",
+        //optionLeft: "Bring it",
+        //optionRight: "Leave it"
+    }
+];
+*/
