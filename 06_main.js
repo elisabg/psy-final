@@ -18,10 +18,8 @@ $("document").ready(function() {
             intro,
             instructions,
             screen1_intro_customized,
-            //mod,
             self_paced_reading,
-            //thirds,
-            //rating_scale,
+            validity_task,
             post_test,
             thanks,
         ],
@@ -40,9 +38,6 @@ $("document").ready(function() {
         progress_bar: {
             in: [
                 // list the view-names of the views for which you want a progress bar
-                screen1_intro_customized.name,
-               // mod.name,
-                //hirds.name
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",

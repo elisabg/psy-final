@@ -1,6 +1,7 @@
 // In this file you can specify the trial data for your experiment
 
 /*
+//Example
 const trial_info = {
     forced_choice: [
         {
@@ -21,22 +22,22 @@ const trial_info = {
 };
 */
 
-
-
-const trial_info = [
+//Trial info for self-paced-reading task
+const trial_info_self = [
     {
         QUD: "The judge asks: 'What did you see under the bed?' The witness responds",
-        //picture: "images/all-false3.png",
-        help_text: 'SPACE',
         sentence: "all | of the | yellow marbles | are | inside | the case.'",
-        //question: "Should you bring Johnny this box or not?",
-        //optionLeft: "Not justified at all",
-        //optionRight: "Strongly justified",
+        option1: "Next",
     },
-    {
-        question: "Should you bring Johnny this box or not?",
-        sentence: "some | of the | black marbles | are | inside | the case.'",
-        //optionLeft: "Bring it",
-        //optionRight: "Leave it"
-    }
 ];
+
+//Trial info for validiy task
+const third_screen = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "Judges answer",
+        question: "Do you agree with the judge?",
+
+    }
+]

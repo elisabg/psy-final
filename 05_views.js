@@ -32,7 +32,7 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `In this epxeriment you'll have to imagine that you are in a courtroom. 
+  text: `In this exeriment you'll have to imagine that you are in a courtroom. 
   You'll be presented various sentences always in the same scheme. 
   The first sentence judges question to the Defendant. 
   If you've finished reading it press the "next" button on the screen. 
@@ -46,60 +46,71 @@ const instructions = magpieViews.view_generator("instructions", {
   buttonText: 'go to trials'
 });
 
-// MY trials
-
-// First slide of item
-const qud = magpieViews.view_generator("intro",{
-  trials: 1,
-  name: 'qud',
-  title: '',
-  text: `First Sentence`,
-  buttonText: 'next'
-});
-
-
-// customized self pace reading task
-/*
-const mod = magpieViews.view_generator("self_paced_reading", {
-	sentence: ' Hello | my | name | is | Elisa',
-	option1: 'Yes',
-	option2: 'no'
+//customized first screen without title
+const screen1_intro_customized = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'item part 1',
+		text: `first sentence`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
 	}
 );
 
-// validity task
+// customized self paced reading task 
+const self_paced_reading = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: trial_info_self.length,
+		name: 'self_paced_reading',
+		data: trial_info_self,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
 
-const thirds = magpieViews.view_generator('rating_scale',{
-    optionLeft: 'disagree',
-    optionRight: 'agree',
-    question: "Ignorance Inference"
-
-});
-
-*/
-
-
-
-
-/*
-const self_paced_reading = magpieViews.view_generator("self_paced_reading", {
-  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-  trials: trial_info_self.length,
-  // name should be identical to the variable name
-  name: 'self_paced_reading',
-  data: trial_info_self,
-  // you can add custom functions at different stages through a view's life cycle
-  // hook: {
-  //     after_response_enabled: check_response
-  // }
-});
-*/
-
-
-
-
-
-
+// validity task, third screen
+const validity_task = magpieViews.view_generator('rating_scale',
+    {
+        trials: third_screen.length,
+        name: 'validity_task',
+        data: third_screen,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
 
 // In the post test questionnaire you can ask your participants addtional questions
 const post_test = magpieViews.view_generator("post_test", {
@@ -154,21 +165,3 @@ const thanks = magpieViews.view_generator("thanks", {
 * All about the properties of trial views
 * https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
 */
-
-
-// Here, we initialize a normal forced_choice view
-const forced_choice_2A = magpieViews.view_generator("forced_choice", {
-  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-  trials: trial_info.forced_choice.length,
-  // name should be identical to the variable name
-  name: 'forced_choice_2A',
-  data: trial_info.forced_choice,
-  // you can add custom functions at different stages through a view's life cycle
-  // hook: {
-  //     after_response_enabled: check_response
-  // }
-});
-
-// There are many more templates available:
-// forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
-// key_press, self_paced_rading and self_paced_reading_rating_scale
