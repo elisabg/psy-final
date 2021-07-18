@@ -840,16 +840,14 @@ const Filler_Polar2 = magpieViews.view_generator(
 		}
 	}
 );
-//
-
-/*
+//Pills on the table
 const Filler_Polar3 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
 		name: 'Filler_Polar3',
-		text: `Did you find at most ten of the knives on the floor?`,
+		text: `Did you find more than ten pills on the table?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -867,7 +865,7 @@ const Filler_Polar4 = magpieViews.view_generator(
 	{
 		trials: 1,
 		name: 'Filler_Polar4',
-		text: `Did you see at most ten of the masks in the closet?`,
+		text: `Did you find approximately ten pills on the table?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -879,13 +877,14 @@ const Filler_Polar4 = magpieViews.view_generator(
 		}
 	}
 );
+// Torches in the drawer
 const Filler_Polar5 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
 		name: 'Filler_Polar5',
-		text: `Did you see at most ten of the men in the garden?`,
+		text: `Did you certainly find only ten of the torches in the drawer?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -903,7 +902,7 @@ const Filler_Polar6 = magpieViews.view_generator(
 	{
 		trials: 1,
 		name: 'Filler_Polar6',
-		text: `Did you hear at most ten of the screams in the kitchen?`,
+		text: `Did you find more than ten of the torches in the drawer?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -915,7 +914,229 @@ const Filler_Polar6 = magpieViews.view_generator(
 		}
 	}
 );
-*/
+//Books on the Shelf
+const Filler_Polar7 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar7',
+		text: `Did you find more than ten of the books on the shelf?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar8 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar8',
+		text: `Did you certainly find nearly ten of the books on the shelf?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Men on the street
+const Filler_Polar9 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar9',
+		text: `Did you see only ten men on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar10 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar10',
+		text: `Did you certainly see nearly ten of the men on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Guns in the bag
+const Filler_Polar11 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar11',
+		text: `Did you certainly see more ten of the guns in the bag?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar12 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar12',
+		text: `Did you see nearly ten of the guns in the bag?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//pictures on the wall
+const Filler_Polar13 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar13',
+		text: `Did you certainly see more than ten of the pictures on the wall?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar14 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Pollas14'
+		text: `Did you see nearly ten of the pictures on the wall?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//rings under the table/beeps in the shower
+const Filler_Polar15 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar15',
+		text: `Did you see only ten rings under the table?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar16 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar16',
+		text: `Did you see more than ten of the rings under the table?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Cars on the street
+const Filler_Polar17 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar17',
+		text: `Did you hear more than ten cars on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Polar18 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Polar18',
+		text: `Did you hear nearly ten cars on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+
 
 //Screen1, What Questions
 //Shoes under the table
@@ -937,14 +1158,14 @@ const Filler_What1 = magpieViews.view_generator(
 		}
 	}
 );
-/*
-const What2 = magpieViews.view_generator(
+// Pills on the table
+const Filler_What2 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
-		name: 'What2',
-		text: `What did you find on the desk?`,
+		name: 'Filler_What2',
+		text: `What did you find on the table?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -956,13 +1177,14 @@ const What2 = magpieViews.view_generator(
 		}
 	}
 );
-const What3 = magpieViews.view_generator(
+//Torches in the drawer
+const Filler_What3 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
-		name: 'What3',
-		text: `What did you see on the floor?`,
+		name: 'Filler_What3',
+		text: `What did you find in the drawer?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -974,13 +1196,14 @@ const What3 = magpieViews.view_generator(
 		}
 	}
 );
-const What4 = magpieViews.view_generator(
+//Books on the Shelf
+const Filler_What4 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
-		name: 'What4',
-		text: `What did you see in the closet?`,
+		name: 'Filler_What4',
+		text: `What did you find on the shelf?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -992,13 +1215,14 @@ const What4 = magpieViews.view_generator(
 		}
 	}
 );
-const What5 = magpieViews.view_generator(
+//Men on the street
+const Filler_What5 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
-		name: 'What5',
-		text: `What did you see in the garden?`,
+		name: 'Filler_What5',
+		text: `What did you see on the street?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -1010,13 +1234,14 @@ const What5 = magpieViews.view_generator(
 		}
 	}
 );
-const What6 = magpieViews.view_generator(
+//Guns in the bag
+const Filler_What6 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
 		trials: 1,
-		name: 'What6',
-		text: `What did you hear in the kitchen?`,
+		name: 'Filler_What6',
+		text: `What did you see in the bag?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
@@ -1028,7 +1253,64 @@ const What6 = magpieViews.view_generator(
 		}
 	}
 );
-*/
+//Pictures on the wall
+const Filler_What7 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_What7',
+		text: `What did you see on the wall?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//rings under the table/beeps in the shower
+const Filler_What8 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_What8',
+		text: `What did you hear in the shower?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Cars on the street
+const Filler_What9 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_What9',
+		text: `What did you hear on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+
 //Screen1, HowMany questions
 //Shoes under the table
 const Filler_HowMany1 = magpieViews.view_generator(
@@ -1049,99 +1331,195 @@ const Filler_HowMany1 = magpieViews.view_generator(
 		}
 	}
 );
-/*
+// Pills on the table
+const Filler_HowMany2 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany2',
+		text: `How many of the pills did you find on the table?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Torches in the drawer
+const Filler_HowMany3 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany3',
+		text: `How many of the torches did you find in the drawer?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_HowMany4 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany4',
+		text: `How many torches did you find in the drawer?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Books on the Shelf
+const Filler_HowMany5 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany5',
+		text: `How many books did you find on the shelf?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_HowMany6 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany6',
+		text: `How many books did you see on the shelf?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Men on the street
+const Filler_HowMany7 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany7',
+		text: `How many men did you see on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//guns in the bag
+const Filler_HowMany8 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany8',
+		text: `How many guns did you see in the bag?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//pictures on the wall
+const Filler_HowMany9 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany9',
+		text: `How many pictures did you see on the wall?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//rings under the table/beeps in the shower
+const Filler_HowMany10 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany10',
+		text: `How many of the beeps did you hear in the shower?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//cars on the street
+const Filler_HowMany11 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_HowMany11',
+		text: `How many cars did you hear on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
 
-const HowMany2 = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'HowMany2',
-		text: `How many of the coins did you find on the desk?`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);
-const HowMany3 = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'HowMany3',
-		text: `How many of the knives did you see on the floor?`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);
-const HowMany4 = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'HowMany4',
-		text: `How many of the knives did you see in the closet?`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);
-const HowMany5 = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'HowMany5',
-		text: `How many of the shots did you hear in the garden?`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);
-const HowMany6 = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'HowMany6',
-		text: `How many of the screams did you hear in the kitchen?`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);v
-*/
 //Screen1, Did Questions
 //Shoes under the table
 const Filler_Did1 = magpieViews.view_generator(
@@ -1162,10 +1540,179 @@ const Filler_Did1 = magpieViews.view_generator(
 		}
 	}
 );
-
-
+// Pills on the Table
+const Filler_Did2 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did2',
+		text: `Did you certainly find ten pills on the table?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+const Filler_Did3 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did3',
+		text: `Did you find ten pills on the table?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Torches in the drawer
+const Filler_Did4 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did4',
+		text: `Did you find ten torches in the drawer?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//Books on the Shelf
+const Filler_Did5 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did5',
+		text: `Did you see ten books on the shelf?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+// Men on the street
+const Filler_Did6 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did6',
+		text: `Did you see ten of the men on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//guns in the bag
+const Filler_Did7 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did7',
+		text: `Did you see ten guns in the bag?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//pictures on the wall
+const Filler_Did8 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did8',
+		text: `Did you see ten pictures on the wall?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//rings under the table/beeps in the shower
+const Filler_Did9 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did9',
+		text: `Did you hear ten beeps in the shower?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
+//cars on the street
+const Filler_Did10 = magpieViews.view_generator(
+	"intro", 
+	//config information
+	{
+		trials: 1,
+		name: 'Filler_Did10',
+		text: `Did you hear ten cars on the street?`,
+	},
+	{
+		stimulus_container_generator: function(config, CT) {
+			return `<div class='magpie-view'>
+				<section class="magpie-text-container">
+					<p class="magpie-view-text">${config.text}</p>
+				</section>
+			 </div>`;
+		}
+	}
+);
 
 //Screen2, Answers
+//Shoes under the table
 const Filler_Answer1 = magpieViews.view_generator("self_paced_reading",
 	{
 		trials: Filler_Ans1.length,
@@ -1198,6 +1745,588 @@ const Filler_Answer2 = magpieViews.view_generator("self_paced_reading",
 		}
 	}
 );
+const Filler_Answer3 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans3.length,
+		name: 'Filler_Answer3',
+		data: Filler_Ans3,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer4 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans4.length,
+		name: 'Filler_Answer4',
+		data: Filler_Ans4,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer5 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans5.length,
+		name: 'Filler_Answer5',
+		data: Filler_Ans5,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer6 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans6.length,
+		name: 'Filler_Answer6',
+		data: Filler_Ans6,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer7 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans7.length,
+		name: 'Filler_Answer7',
+		data: Filler_Ans7,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer8 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans8.length,
+		name: 'Filler_Answer8',
+		data: Filler_Ans8,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//Pills on the table
+const Filler_Answer9 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans9.length,
+		name: 'Filler_Answer9',
+		data: Filler_Ans9,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer10 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans10.length,
+		name: 'Filler_Answer10',
+		data: Filler_Ans10,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer11 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans11.length,
+		name: 'Filler_Answer11',
+		data: Filler_Ans11,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer12 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans12.length,
+		name: 'Filler_Answer12',
+		data: Filler_Ans12,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer13 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans13.length,
+		name: 'Filler_Answer13',
+		data: Filler_Ans13,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer14 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans14.length,
+		name: 'Filler_Answer14',
+		data: Filler_Ans14,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//Torches in the drawer
+const Filler_Answer15 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans15.length,
+		name: 'Filler_Answer´15',
+		data: Filler_Ans15,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer16 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans16.length,
+		name: 'Filler_Answer16',
+		data: Filler_Ans16,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer17 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans17.length,
+		name: 'Filler_Answer17',
+		data: Filler_Ans17,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer18 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans18.length,
+		name: 'Filler_Answer18',
+		data: Filler_Ans18,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer19 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans19.length,
+		name: 'Filler_Answer19',
+		data: Filler_Ans19,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer20 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans20.length,
+		name: 'Filler_Answer20',
+		data: Filler_Ans20,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer21 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans21.length,
+		name: 'Filler_Answer21',
+		data: Filler_Ans21,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer22 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans22.length,
+		name: 'Filler_Answer22',
+		data: Filler_Ans22,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//Books on the shelf
+const Filler_Answer23 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans23.length,
+		name: 'Filler_Answer23',
+		data: Filler_Ans23,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer24 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans24.length,
+		name: 'Filler_Answer24',
+		data: Filler_Ans24,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer25 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans25.length,
+		name: 'Filler_Answer25',
+		data: Filler_Ans25,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer26 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans26.length,
+		name: 'Filler_Answer26',
+		data: Filler_Ans26,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer27 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans27.length,
+		name: 'Filler_Answer27',
+		data: Filler_Ans27,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer28 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans28.length,
+		name: 'Filler_Answer28',
+		data: Filler_Ans28,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer29 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans29.length,
+		name: 'Filler_Answer29',
+		data: Filler_Ans29,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer30 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans30.length,
+		name: 'Filler_Answer30',
+		data: Filler_Ans30,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//Men on the street
+const Filler_Answer31 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans31.length,
+		name: 'Filler_Answer31',
+		data: Filler_Ans31,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer32 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans32.length,
+		name: 'Filler_Answer32',
+		data: Filler_Ans32,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer33 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans33.length,
+		name: 'Filler_Answer33',
+		data: Filler_Ans33,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer34 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans34.length,
+		name: 'Filler_Answer34',
+		data: Filler_Ans34,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer35 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans35.length,
+		name: 'Filler_Answer35',
+		data: Filler_Ans35,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer36 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans36.length,
+		name: 'Filler_Answer36',
+		data: Filler_Ans36,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer37 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans37.length,
+		name: 'Filler_Answer237,
+		data: Filler_Ans37,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer38 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans38.length,
+		name: 'Filler_Answer38',
+		data: Filler_Ans38,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//guns in the bag
+
 
 //Screen3, Inferences
 //Obviously Valid Inferences

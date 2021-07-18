@@ -215,6 +215,321 @@ const Filler_Ans3= [
         option1: "Next",
     },
 ];
+const Filler_Ans4= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | only | ten | shoes | under | the | table",
+        option1: "Next",
+    },
+];
+const Filler_Ans5= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | nearly | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans6= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | only | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans7= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | more | than | ten | shoes | under | the | table",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+//Pills on the table
+const Filler_Ans9= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | only | ten | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans10= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | nearly | ten | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans11= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | nearly | ten | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans12= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | more | than | ten | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans13= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | nearly | ten | of | the | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans14= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | probably | only | ten | of | the | pills | on | the | table.",
+        option1: "Next",
+    },
+];
+//Torches in the drawer
+const Filler_Ans15= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | only | ten | of | the | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans16= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | certainly | more | than | ten | of | the | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans17= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | more | than | ten | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans18= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | only | ten | torches | in | the | drawer",
+        option1: "Next",
+    },
+];
+const Filler_Ans19= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | nearly | ten | of | the | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans20= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | more | than | ten | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans21= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | ten | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+const Filler_Ans22= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | torches | in | the | drawer.",
+        option1: "Next",
+    },
+];
+//Books on the shelf
+const Filler_Ans23= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | found | more | than | ten | of | the | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans24= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | nearly | ten | of | the | books | on | the | shelf..",
+        option1: "Next",
+    },
+];
+const Filler_Ans25= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | probably | more | than | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans26= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | found | more | than | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans27= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans28= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | only | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans29= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | saw | more | than | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+const Filler_Ans30= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | saw | nearly | ten | books | on | the | shelf.",
+        option1: "Next",
+    },
+];
+//Men on the street
+const Filler_Ans31= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | saw | only | ten | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans32= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | nearly | ten | of | the | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans33= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | certainly | more | than | ten | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans34= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | saw | more | than | ten | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans35= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | approximately | ten | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans36= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | only | ten | men | on | the | street",
+        option1: "Next",
+    },
+];
+const Filler_Ans37= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | saw | more | than | ten | of | the | men | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans38= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | saw | nearly | ten | of | the | men | on | the | street.",
+        option1: "Next",
+    },
+];
+//guns in the bag
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+const Filler_Ans8= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        option1: "Next",
+    },
+];
+
+
 
 // Trial Info, Inferences
 //Shoes under the table
