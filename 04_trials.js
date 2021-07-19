@@ -465,55 +465,56 @@ const Filler_Ans38= [
     },
 ];
 //guns in the bag
-const Filler_Ans8= [
+const Filler_Ans39= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | saw | more | than | ten | of | the | guns | in | the | bag.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans40= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | probably | saw | nearly | ten | of | the | guns | in | the | bag.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans41= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | saw | certainly | only | ten | guns | in | the | bag. ",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans42= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | saw | approximately | ten | guns | in | the | bag.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans43= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | certainly | saw | more | than | ten | guns | in | the | bag.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans44= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | saw | only | ten | guns | in | the | bag.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans45= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I | certainly | saw | nearly | ten | guns | in | the | bag.",
         option1: "Next",
     },
 ];
+//
 const Filler_Ans8= [
     {
         QUD: "The witness responds:",
