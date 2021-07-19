@@ -514,21 +514,99 @@ const Filler_Ans45= [
         option1: "Next",
     },
 ];
-//
-const Filler_Ans8= [
+//pictures on the wall
+const Filler_Ans46= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I saw more than ten of the pictures on the wall.",
         option1: "Next",
     },
 ];
-const Filler_Ans8= [
+const Filler_Ans47= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | approximately | ten | shoes | under | the | table.",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
         option1: "Next",
     },
 ];
+const Filler_Ans48= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I saw certainly only ten pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans49= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+const Filler_Ans47= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        option1: "Next",
+    },
+];
+
 
 
 
