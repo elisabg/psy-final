@@ -1,23 +1,6 @@
 // In this file you can instantiate your views
 // We here first instantiate wrapping views, then the trial views
 
-
-/** Wrapping views below
-
-* Obligatory properties
-
-    * trials: int - the number of trials this view will appear
-    * name: string
-
-*Optional properties
-    * buttonText: string - the text on the button (default: 'next')
-    * text: string - the text to be displayed in this view
-    * title: string - the title of this view
-
-    * More about the properties and functions of the wrapping views - https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#wrapping-views
-
-*/
-
 // Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
 const intro = magpieViews.view_generator("intro", {
   trials: 1,
@@ -46,7 +29,7 @@ const instructions = magpieViews.view_generator("instructions", {
   buttonText: 'go to trials'
 });
 
-/*
+
 const screen1_intro_customized = magpieViews.view_generator(
 	"intro", 
 	//config information
@@ -111,11 +94,8 @@ const validity_task = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
-*/
 
-
-// MAIN ITEMS
-
+// MAIN Stimulus
 //Screen1, Polar Questions
 const Polar1 = magpieViews.view_generator(
 	"intro", 
@@ -225,7 +205,6 @@ const Polar6 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen1, What Questions
 const What1 = magpieViews.view_generator(
 	"intro", 
@@ -335,7 +314,6 @@ const What6 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen1, HowMany questions
 const HowMany1 = magpieViews.view_generator(
 	"intro", 
@@ -445,7 +423,6 @@ const HowMany6 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen2, SUP answers
 const SUP1 = magpieViews.view_generator("self_paced_reading",
 	{
@@ -543,7 +520,6 @@ const SUP6 = magpieViews.view_generator("self_paced_reading",
 		}
 	}
 );
-
 //Screen2, COMP answers
 const COMP1 = magpieViews.view_generator("self_paced_reading",
 	{
@@ -641,7 +617,6 @@ const COMP6 = magpieViews.view_generator("self_paced_reading",
 		}
 	}
 );
-
 //Screen3, Inferences (INF)
 const INF1 = magpieViews.view_generator('rating_scale',
     {
@@ -801,7 +776,6 @@ const INF6 = magpieViews.view_generator('rating_scale',
 );
 
 // FILLER ITEMS
-
 //Screen1, Polar Questions
 //Shoes under the table
 const Filler_Polar1 = magpieViews.view_generator(
@@ -1136,8 +1110,6 @@ const Filler_Polar18 = magpieViews.view_generator(
 		}
 	}
 );
-
-
 //Screen1, What Questions
 //Shoes under the table
 const Filler_What1 = magpieViews.view_generator(
@@ -1310,7 +1282,6 @@ const Filler_What9 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen1, HowMany questions
 //Shoes under the table
 const Filler_HowMany1 = magpieViews.view_generator(
@@ -1519,7 +1490,6 @@ const Filler_HowMany11 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen1, Did Questions
 //Shoes under the table
 const Filler_Did1 = magpieViews.view_generator(
@@ -1710,7 +1680,6 @@ const Filler_Did10 = magpieViews.view_generator(
 		}
 	}
 );
-
 //Screen2, Answers
 //Shoes under the table
 const Filler_Answer1 = magpieViews.view_generator("self_paced_reading",
@@ -2326,15 +2295,1626 @@ const Filler_Answer38 = magpieViews.view_generator("self_paced_reading",
 	}
 );
 //guns in the bag
-
-
+const Filler_Answer39 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans39.length,
+		name: 'Filler_Answer39',
+		data: Filler_Ans39,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer40 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans40.length,
+		name: 'Filler_Answer40',
+		data: Filler_Ans40,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer41 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans41.length,
+		name: 'Filler_Answer41',
+		data: Filler_Ans41,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer42 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans42.length,
+		name: 'Filler_Answer42',
+		data: Filler_Ans42,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer43 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans43.length,
+		name: 'Filler_Answer43',
+		data: Filler_Ans43,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer44 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans44.length,
+		name: 'Filler_Answer44',
+		data: Filler_Ans44,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer45 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans45.length,
+		name: 'Filler_Answer45',
+		data: Filler_Ans45,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//pictures on the wall
+const Filler_Answer46 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans46.length,
+		name: 'Filler_Answer46',
+		data: Filler_Ans46,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer47 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans47.length,
+		name: 'Filler_Answer47',
+		data: Filler_Ans47,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer48 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans48.length,
+		name: 'Filler_Answer48',
+		data: Filler_Ans48,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer49 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans49.length,
+		name: 'Filler_Answer49',
+		data: Filler_Ans49,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer50 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans50.length,
+		name: 'Filler_Answer50',
+		data: Filler_Ans50,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer51 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans51.length,
+		name: 'Filler_Answer51',
+		data: Filler_Ans51,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer52 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans52.length,
+		name: 'Filler_Answer52',
+		data: Filler_Ans52,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//rings under the table/beeps in the shower
+const Filler_Answer53 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans53.length,
+		name: 'Filler_Answer53',
+		data: Filler_Ans53,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer54 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans54.length,
+		name: 'Filler_Answer54',
+		data: Filler_Ans54,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer55 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans55.length,
+		name: 'Filler_Answer55',
+		data: Filler_Ans55,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer56 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans56.length,
+		name: 'Filler_Answer56',
+		data: Filler_Ans56,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer57 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans57.length,
+		name: 'Filler_Answer57',
+		data: Filler_Ans57,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer58 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans58.length,
+		name: 'Filler_Answer58',
+		data: Filler_Ans58,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer59 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans59.length,
+		name: 'Filler_Answer59',
+		data: Filler_Ans59,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+//cars on the street
+const Filler_Answer60 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans60.length,
+		name: 'Filler_Answer60',
+		data: Filler_Ans60,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer61 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans61.length,
+		name: 'Filler_Answer61',
+		data: Filler_Ans61,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer62 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans62.length,
+		name: 'Filler_Answer62',
+		data: Filler_Ans62,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer63 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans63.length,
+		name: 'Filler_Answer63',
+		data: Filler_Ans63,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer64 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans64.length,
+		name: 'Filler_Answer64',
+		data: Filler_Ans64,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
+const Filler_Answer65 = magpieViews.view_generator("self_paced_reading",
+	{
+		trials: Filler_Ans65.length,
+		name: 'Filler_Answer65',
+		data: Filler_Ans65,
+	},
+	{
+		answer_container_generator: function (config, CT) {
+			return `<div class='magpie-view-answer-container'>
+				 <p class='magpie-view-question'>${config.data[CT].question}</p>
+					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+				 </div>`;
+		}
+	}
+);
 //Screen3, Inferences
-//Obviously Valid Inferences
+//shoes under the table
 const Filler_INF1 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info1.length,
         name: 'Filler_INF1',
         data: Filler_info1,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF2 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info2.length,
+        name: 'Filler_INF2',
+        data: Filler_info2,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF3 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info3.length,
+        name: 'Filler_INF3',
+        data: Filler_info3,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//pills on the table
+const Filler_INF4 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info4.length,
+        name: 'Filler_INF4',
+        data: Filler_info4,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF5 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info5.length,
+        name: 'Filler_INF5',
+        data: Filler_info5,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF6 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info6.length,
+        name: 'Filler_INF6',
+        data: Filler_info6,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF7 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info7.length,
+        name: 'Filler_INF7',
+        data: Filler_info7,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF8 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info8.length,
+        name: 'Filler_INF8',
+        data: Filler_info8,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//torches in the drawer
+const Filler_INF9 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info9.length,
+        name: 'Filler_INF9',
+        data: Filler_info9,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF10 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info10.length,
+        name: 'Filler_INF10',
+        data: Filler_info10,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF11 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info11.length,
+        name: 'Filler_INF11',
+        data: Filler_info11,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF12 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info12.length,
+        name: 'Filler_INF12',
+        data: Filler_info12,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF13 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info13.length,
+        name: 'Filler_INF13',
+        data: Filler_info13,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF14 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info14.length,
+        name: 'Filler_INF14',
+        data: Filler_info14,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//books on the shelf
+const Filler_INF15 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info15.length,
+        name: 'Filler_INF15',
+        data: Filler_info15,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF16 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info16.length,
+        name: 'Filler_INF16',
+        data: Filler_info16,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF17 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info17.length,
+        name: 'Filler_INF17',
+        data: Filler_info17,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF18 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info18.length,
+        name: 'Filler_INF18',
+        data: Filler_info18,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF19 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info19.length,
+        name: 'Filler_INF19',
+        data: Filler_info19,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF20 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info20.length,
+        name: 'Filler_INF20',
+        data: Filler_info20,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF21 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info21.length,
+        name: 'Filler_INF21',
+        data: Filler_info21,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//Men on the street
+const Filler_INF22 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info22.length,
+        name: 'Filler_INF22',
+        data: Filler_info22,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF23 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info23.length,
+        name: 'Filler_INF23',
+        data: Filler_info23,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF24 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info24.length,
+        name: 'Filler_INF24',
+        data: Filler_info24,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF25 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info25.length,
+        name: 'Filler_INF25',
+        data: Filler_info25,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF26 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info26.length,
+        name: 'Filler_INF26',
+        data: Filler_info26,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF27 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info27.length,
+        name: 'Filler_INF27',
+        data: Filler_info27,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//guns in the bag
+const Filler_INF28 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info28.length,
+        name: 'Filler_INF28',
+        data: Filler_info28,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF29 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info29.length,
+        name: 'Filler_INF29',
+        data: Filler_info29,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF30 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info30.length,
+        name: 'Filler_INF30',
+        data: Filler_info30,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF31 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info31.length,
+        name: 'Filler_INF31',
+        data: Filler_info31,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//pictures on the wall
+const Filler_INF32 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info32.length,
+        name: 'Filler_INF32',
+        data: Filler_info32,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF33 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info33.length,
+        name: 'Filler_INF33',
+        data: Filler_info33,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF34 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info34.length,
+        name: 'Filler_INF34',
+        data: Filler_info34,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF35 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info35.length,
+        name: 'Filler_INF35',
+        data: Filler_info35,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//rings under the table/beeps in the shower
+const Filler_INF36 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info36.length,
+        name: 'Filler_INF36',
+        data: Filler_info36,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF37 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info37.length,
+        name: 'Filler_INF37',
+        data: Filler_info37,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF38 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info38.length,
+        name: 'Filler_INF38',
+        data: Filler_info38,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF39 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info39.length,
+        name: 'Filler_INF39',
+        data: Filler_info39,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF40 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info40.length,
+        name: 'Filler_INF40',
+        data: Filler_info40,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF41 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info41.length,
+        name: 'Filler_INF41',
+        data: Filler_info41,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF42 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info42.length,
+        name: 'Filler_INF42',
+        data: Filler_info42,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF43 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info43.length,
+        name: 'Filler_INF43',
+        data: Filler_info43,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+//cars on the street
+const Filler_INF44 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info44.length,
+        name: 'Filler_INF44',
+        data: Filler_info44,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF45 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info45.length,
+        name: 'Filler_INF45',
+        data: Filler_info45,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+const Filler_INF46 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info46.length,
+        name: 'Filler_INF46',
+        data: Filler_info46,
     },
     {
 		answer_container_generator: function(config, CT) {
@@ -2390,26 +3970,3 @@ const thanks = magpieViews.view_generator("thanks", {
   title: 'Thank you for taking part in this experiment!',
   prolificConfirmText: 'Press the button'
 });
-
-/** trial (magpie's Trial Type Views) below
-
-* Obligatory properties
-
-    - trials: int - the number of trials this view will appear
-    - name: string - the name of the view type as it shall be known to _magpie (e.g. for use with a progress bar)
-            and the name of the trial as you want it to appear in the submitted data
-    - data: array - an array of trial objects
-
-* Optional properties
-
-    - pause: number (in ms) - blank screen before the fixation point or stimulus show
-    - fix_duration: number (in ms) - blank screen with fixation point in the middle
-    - stim_duration: number (in ms) - for how long to have the stimulus on the screen
-      More about trial life cycle - https://magpie-ea.github.io/magpie-docs/01_designing_experiments/04_lifecycles_hooks/
-
-    - hook: object - option to hook and add custom functions to the view
-      More about hooks - https://magpie-ea.github.io/magpie-docs/01_designing_experiments/04_lifecycles_hooks/
-
-* All about the properties of trial views
-* https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
-*/

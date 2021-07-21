@@ -22,7 +22,7 @@ const trial_info = {
 };
 */
 
-/*
+
 //Trial info for self-paced-reading task
 const trial_info_self = [
     {
@@ -42,7 +42,7 @@ const third_screen = [
 
     }
 ];
-*/
+
 
 //MAIN TRIALS
 
@@ -518,100 +518,148 @@ const Filler_Ans45= [
 const Filler_Ans46= [
     {
         QUD: "The witness responds:",
-        sentence: "I saw more than ten of the pictures on the wall.",
+        sentence: "I | saw | more | than | ten | of | the | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
 const Filler_Ans47= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | probably | saw | nearly | ten | of | the | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
 const Filler_Ans48= [
     {
         QUD: "The witness responds:",
-        sentence: "I saw certainly only ten pictures on the wall.",
+        sentence: "I | saw | certainly | only | ten | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
 const Filler_Ans49= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | saw | approximately | ten | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans50= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | certainly | saw | more | than | ten | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans51= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | saw | only | ten | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans52= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | certainly | saw | nearly | ten | pictures | on | the | wall.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+//rings under the table/beeps in the shower
+const Filler_Ans53= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | certainly | saw | only | ten | rings | under | the | table.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans54= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | saw | certainly | more | than | ten | of | the | rings | under | the | table.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans55= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | probably | heard | more | than | ten | beeps | in | the | shower.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans56= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | heard | only | ten | beeps | in | the | shower.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans57= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | certainly | heard | more | than | ten | of | the | beeps | in | the | shower.",
         option1: "Next",
     },
 ];
-const Filler_Ans47= [
+const Filler_Ans58= [
     {
         QUD: "The witness responds:",
-        sentence: "I probably saw nearly ten of the pictures on the wall.",
+        sentence: "I | certainly | heard | nearly | ten | beeps | in | the | shower.",
         option1: "Next",
     },
 ];
-
-
-
+const Filler_Ans59= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | approximately | beeps | in | the | shower.",
+        option1: "Next",
+    },
+];
+// cars on the street
+const Filler_Ans60= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | heard | more | than | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans61= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | probably | heard | nearly | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans62= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | certainly | only | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans63= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | approximately | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans64= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | only | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
+const Filler_Ans65= [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | certainly | heard | nearly | ten | cars | on | the | street.",
+        option1: "Next",
+    },
+];
 
 // Trial Info, Inferences
-//Shoes under the table
+//shoes under the table
 const Filler_info1 = [
     {
         optionLeft: "agree",
@@ -621,3 +669,417 @@ const Filler_info1 = [
 
     }
 ];
+const Filler_info2 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info3 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven shoes under the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//pills on the table
+const Filler_info4 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found nine pills on the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info5 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven pills on the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info6 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of pills she found on the table is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info7 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found nine of the pills on the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info8 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven of the pills on the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//torches in the drawer
+const Filler_info9 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven of the torches in the drawer.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info10 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found ten torches in the drawer.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info11 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven torches in the drawer.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info12 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found nine of the torches in the drawer.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info13 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of torches she found in the drawer is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info14 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found nine torches in the drawer.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//books on the shelf
+const Filler_info15 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw nine books on the shelf.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info16 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of books she found on the shelf is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info17 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found eleven books on the shelf.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info18 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found ten books on the shelf.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info19 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she found ten of the books on the shelf.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info20 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of books she saw on the shelf is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info21 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw ten books on the shelf.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//Men on the street
+const Filler_info22 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw eleven men on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info23 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw nine of the men on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info24 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of men she saw on the street is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info25 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw ten men on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info26 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw nine men on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info27 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw ten of the men on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//guns in the bag
+const Filler_info28 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw eleven of the guns in the bag.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info29 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw nine guns in the bag.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info30 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info31 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw ten guns in the bag.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//pictures on the wall
+const Filler_info32 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw eleven of the pictures on the wall.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info33 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw nine pictures on the wall.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info34 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info35 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw ten pictures on the wall.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//rings under the table/beeps in the shower
+const Filler_info36 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she saw eleven of the rings under the table.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info37 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard eleven of the beeps in the shower.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info38 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info39 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard ten beeps in the shower.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info40 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of rings she saw under the table is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info41 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info42 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness thinks the number of beeps she heard in the shower is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info43 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard nine of the beeps in the shower.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+//cars on the street
+const Filler_info44 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard nine cars on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info45 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const Filler_info46 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness considers it possible that she heard ten cars on the street.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+
