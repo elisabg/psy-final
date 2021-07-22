@@ -17,9 +17,7 @@ $("document").ready(function() {
         views_seq: [
             intro,
             instructions,
-            screen1_intro_customized,
-            self_paced_reading,
-            validity_task,
+            list1,
             post_test,
             thanks,
         ],
