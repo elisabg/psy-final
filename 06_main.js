@@ -17,7 +17,229 @@ $("document").ready(function() {
         views_seq: [
             intro,
             instructions,
-            list1,
+
+            /*
+            // COND 3(what-comp)
+
+            //sentence 3
+            What3, // first screen
+            COMP8,
+            INF8,
+            //sentence1
+            What1,
+            COMP1,
+            INF1,
+
+            // sentence 5
+            What5,
+            COMP5,
+            INF5,
+
+            //sentence 4
+            What4,
+            COMP4,
+            INF4,
+
+            */
+
+            //sentence2
+            What2,
+            COMP2,
+            INF2,
+
+            /*
+            //sentence 6
+            What6,
+            COMP6,
+            INF6,
+
+            // FILLER??
+
+
+            // COND 4 (WHAT SUP)
+            //sentence 1
+            What1, // first screen               // no next button
+            SUP1,
+            INF1,
+
+            
+
+            //sentence4
+            What4,
+            SUP4,
+            INF4,
+
+            // sentence 3
+            What3,
+            SUP8,
+            INF8,
+
+            //sentence 6
+            What6,
+            SUP6,
+            INF6,
+
+            //sentence 5
+            What5,
+            SUP5,
+            INF5,
+
+            
+
+            //sentence 2
+            What2,
+            SUP2,
+            INF2,
+
+            // FILLERS??
+
+
+            // COND 1 (pol comp)
+
+            //sentence 4
+            Polar4, // first screen
+            COMP4,
+            INF4,
+
+            //sentence6
+            Polar6,
+            COMP6,
+            INF6,
+
+            // sentence 1
+            Polar1,
+            COMP1,
+            INF1,
+            */
+
+            //sentence 2                     // next doesn't work
+            Polar2,
+            COMP2,
+            INF2,
+
+            //sentence 3
+            Polar3,
+            COMP3,
+            INF3,
+
+            //sentence 5
+            Polar5,
+            COMP5,
+            INF5,
+
+
+            // FILLERS??
+
+
+            // COND 5 (howmany comp)
+
+            //sentence 6
+            HowMany6, // first screen
+            COMP6,
+            INF6,
+
+            //sentence 2
+            HowMany2,
+            COMP2,
+            INF2,
+
+            // sentence 4
+            HowMany4,
+            COMP4,
+            INF4,
+
+            //sentence 5
+            HowMany5,
+            COMP7,
+            INF7,
+
+            //sentence 1
+            HowMany1,
+            COMP1,
+            INF1,
+
+            //sentence 3
+            HowMany3,
+            COMP8,
+            INF8,
+
+
+            // FILLERS??
+
+
+            // COND 2 (polar sup)
+
+             //sentence 2
+             Polar2, // first screen
+             SUP2,
+             INF2,
+ 
+             //sentence 5
+             Polar5,
+             SUP5,
+             INF5,
+ 
+             // sentence 6
+             Polar6,
+             SUP6,
+             INF6,
+ 
+             //sentence 3
+             Polar3,
+             SUP3,
+             INF3,
+ 
+             //sentence 4
+             Polar4,
+             SUP4,
+             INF4,
+ 
+             //sentence 1
+             Polar1,
+             SUP1,
+             INF1,
+
+
+
+
+
+             // COND 6 (Howmany sup)
+             
+            //sentence 5
+            HowMany5, // first screen
+            SUP7,
+            INF7,
+
+            //sentence 3
+            HowMany3,
+            SUP8,
+            INF8,
+
+            // sentence 2
+            HowMany2,
+            SUP2,
+            INF2,
+
+            //sentence 1
+            HowMany1,
+            SUP1,
+            INF1,
+
+            //sentence 6
+            HowMany6,
+            SUP6,
+            INF6,
+
+            //sentence 4
+            HowMany4,
+            SUP4,
+            INF4,
+
+
+
+
+
+            //list1,
             post_test,
             thanks,
         ],

@@ -96,10 +96,10 @@ const validity_task = magpieViews.view_generator('rating_scale',
 );
 */
 
-const list1 = [
+
 // MAIN Stimulus
 //Screen1, Polar Questions
-	Polar1 = magpieViews.view_generator(
+const Polar1 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -116,8 +116,9 @@ const list1 = [
 			 </div>`;
 		}
 	}
-),
-	 Polar2 = magpieViews.view_generator(
+);
+
+const Polar2 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -134,8 +135,9 @@ const list1 = [
 			 </div>`;
 		}
 	}
-),
-	Polar3 = magpieViews.view_generator(
+);
+
+const Polar3 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -152,8 +154,9 @@ const list1 = [
 			 </div>`;
 		}
 	}
-),
-	 Polar4 = magpieViews.view_generator(
+);
+
+const Polar4 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -170,8 +173,9 @@ const list1 = [
 			 </div>`;
 		}
 	}
-),
-	 Polar5 = magpieViews.view_generator(
+);
+
+const Polar5 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -188,8 +192,9 @@ const list1 = [
 			 </div>`;
 		}
 	}
-),
-	 Polar6 = magpieViews.view_generator(
+);
+
+const Polar6 = magpieViews.view_generator(
 	"intro", 
 	//config information
 	{
@@ -206,7 +211,11 @@ const list1 = [
 			 </div>`;
 		}
 	}
-)];
+);
+
+
+
+
 //Screen1, What Questions
 const What1 = magpieViews.view_generator(
 	"intro", 
@@ -226,6 +235,7 @@ const What1 = magpieViews.view_generator(
 		}
 	}
 );
+
 const What2 = magpieViews.view_generator(
 	"intro", 
 	//config information
@@ -575,6 +585,7 @@ const COMP1 = magpieViews.view_generator("self_paced_reading",
 const COMP2 = magpieViews.view_generator("self_paced_reading",
 	{
 		trials: trial_info_COMP2.length,
+		//trials: 2,
 		name: 'COMP2',
 		data: trial_info_COMP2,
 	},
