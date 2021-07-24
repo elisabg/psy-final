@@ -22,9 +22,9 @@ const third_screen = [
 ];
 */
 
-//MAIN TRIALS
+//MAIN TRIALS **CORRECT ORDER**
 
-// Trial Info, SUP answers
+//SUP Answers
 const trial_info_SUP1 = [
     {
         QUD: "The witness responds:",
@@ -35,42 +35,42 @@ const trial_info_SUP1 = [
 const trial_info_SUP2 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | at | most | ten | of | the | coins | on | the | desk.",
+        sentence: "I | found | at | most | ten | of | the | diamonds | under | the | bed.",
         option1: "Next",
     },
 ];
 const trial_info_SUP3 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | at | most | ten | of | the | knives | on | the | floor.",
+        sentence: "I | found | at | most | ten | of | the | diamonds | under | the | bed.",
         option1: "Next",
     },
 ];
 const trial_info_SUP4 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | saw | at | most | ten | of | the | masks | in | the | closet.",
+        sentence: "I | found | at | most | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_SUP5 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | saw | at | most | ten | of | the | men | in | the | garden.",
+        sentence: "I | found | at | most | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_SUP6 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | heard | at | most | ten | of | the | screams | in | the | kitchen.",
+        sentence: "I | found | at | most | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_SUP7 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | heard | at | most | ten | of | the | shots | in | the | garden.",
+        sentence: "I | found | at | most | ten | of | the | knives | on | the | floor.",
         option1: "Next",
     },
 ];
@@ -81,9 +81,77 @@ const trial_info_SUP8 = [
         option1: "Next",
     },
 ];
-
-
-// Trial Info, COMP answers
+const trial_info_SUP9 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | knives | on | the | floor.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP10 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP11 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP12 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP13 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | men | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP14 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | at | most | ten | of | the | men | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP15 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | at | most | ten | of | the | shots | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP16 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | at | most | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP17 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | at | most | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+const trial_info_SUP18 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | at | most | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+//COMP Answers
 const trial_info_COMP1= [
     {
         QUD: "The witness responds:",
@@ -91,45 +159,45 @@ const trial_info_COMP1= [
         option1: "Next",
     },
 ];
-const trial_info_COMP2 = [
+const trial_info_COMP2= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | less | than | ten | of | the | coins | on | the | desk.",
+        sentence: "I | found | less | than | ten | of | the | diamonds | under | the | bed.",
         option1: "Next",
     },
 ];
-const trial_info_COMP3 = [
+const trial_info_COMP3= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | less | than | ten | of | the | knives | on | the | floor.",
+        sentence: "I | found | less | than | ten | of | the | diamonds | under | the | bed.",
         option1: "Next",
     },
 ];
 const trial_info_COMP4 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | saw | less | than | ten | of | the | masks | in | the | closet.",
+        sentence: "I | found | less | than | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_COMP5 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | saw | less | than | ten | of | the | men | in | the | garden.",
+        sentence: "I | found | less | than | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_COMP6 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | heard | less | than | ten | of | the | screams | in | the | kitchen.",
+        sentence: "I | found | less | than | ten | of | the | coins | on | the | desk.",
         option1: "Next",
     },
 ];
 const trial_info_COMP7 = [
     {
         QUD: "The witness responds:",
-        sentence: "I | heard | less | than | ten | of | the | shots | in | the | garden.",
+        sentence: "I | found | less | than | ten | of | the | knives | on | the | floor.",
         option1: "Next",
     },
 ];
@@ -140,8 +208,77 @@ const trial_info_COMP8 = [
         option1: "Next",
     },
 ];
-
-//Trial Info, Inferences (INF)
+const trial_info_COMP9 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | knives | on | the | floor.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP10 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP11 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP12 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | masks | in | the | closet.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP13 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | men | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP14 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | saw | less | than | ten | of | the | men | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP15 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | less | than | ten | of | the | shots | in | the | garden.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP16 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | less | than | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP17 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | less | than | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+const trial_info_COMP18 = [
+    {
+        QUD: "The witness responds:",
+        sentence: "I | heard | less | than | ten | of | the | screams | in | the | kitchen.",
+        option1: "Next",
+    },
+];
+//Inferences
 const trial_info_INF1 = [
     {
         optionLeft: "agree",
@@ -155,16 +292,16 @@ const trial_info_INF2 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
     }
 ];
-const trial_info_INF3= [
+const trial_info_INF3 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the knives she found on the floor.",
+        QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
     }
@@ -173,7 +310,7 @@ const trial_info_INF4 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
     }
@@ -182,7 +319,7 @@ const trial_info_INF5 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the men she saw in the garden.",
+        QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
     }
@@ -191,7 +328,7 @@ const trial_info_INF6 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
     }
@@ -200,7 +337,7 @@ const trial_info_INF7 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
-        QUD: "The witness does not know exactly how many of the shots she heard in the garden.",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
     }
@@ -209,12 +346,263 @@ const trial_info_INF8 = [
     {
         optionLeft: "agree",
         optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF9 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF10 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF11 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF12 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the coins she found on the desk.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF13= [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the knives she found on the floor.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF14= [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the knives she found on the floor.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF15 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
         question: "Do you agree with the judge?",
 
     }
 ];
+const trial_info_INF16 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
+        question: "Do you agree with the judge?",
 
+    }
+];
+const trial_info_INF17 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF18 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF19 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF20 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF21 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF22 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF23 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF24 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF25 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the men she saw in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF26 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the men she saw in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF27 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the men she saw in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF28 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the men she saw in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF29 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the shots she heard in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF30 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the shots she heard in the garden.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF31 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF32 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF33 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF34 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF35 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
+const trial_info_INF36 = [
+    {
+        optionLeft: "agree",
+        optionRight: "disagree",
+        QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
+        question: "Do you agree with the judge?",
+
+    }
+];
 
 // FILLER ITEMS
 
