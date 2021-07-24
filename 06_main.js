@@ -18,40 +18,39 @@ $("document").ready(function() {
             intro,
             instructions,
 
-            /*
+            
             // COND 3(what-comp)
 
             //sentence 3
-            What3, // first screen
+            What6, // first screen
             COMP8,
-            INF8,
+            INF16,
+
             //sentence1
-            What1,
-            COMP1,
-            INF1,
-
-            // sentence 5
-            What5,
-            COMP5,
-            INF5,
-
-            //sentence 4
-            What4,
-            COMP4,
+            What2, 
+            COMP2,
             INF4,
 
-            */
+            // sentence 5
+            What10,
+            COMP14,
+            INF28,
+
+            //sentence 4
+            What8,
+            COMP11,
+            INF22,
 
             //sentence2
-            What2,
-            COMP2,
-            INF2,
+            What4,
+            COMP8,
+            INF16,
 
-            /*
+            
             //sentence 6
-            What6,
-            COMP6,
-            INF6,
+            What12,
+            COMP17,
+            INF34,
 
             // FILLER??
 
@@ -59,11 +58,9 @@ $("document").ready(function() {
             // COND 4 (WHAT SUP)
             //sentence 1
             What1, // first screen               // no next button
-            SUP1,
-            INF1,
-
-            
-
+            SUP2,
+            INF4,
+            /*
             //sentence4
             What4,
             SUP4,
@@ -110,7 +107,7 @@ $("document").ready(function() {
             Polar1,
             COMP1,
             INF1,
-            */
+            
 
             //sentence 2                     // next doesn't work
             Polar2,
@@ -234,7 +231,7 @@ $("document").ready(function() {
             HowMany4,
             SUP4,
             INF4,
-
+*/
 
 
 
