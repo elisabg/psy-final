@@ -27,7 +27,7 @@ $("document").ready(function() {
             INF16,
 
             //sentence1
-            What2,
+            What2, 
             COMP2,
             INF4,
 
@@ -43,9 +43,10 @@ $("document").ready(function() {
 
             //sentence2
             What4,
-            COMP5,
-            INF10,
+            COMP8,
+            INF16,
 
+            
             //sentence 6
             What12,
             COMP17,
@@ -58,69 +59,70 @@ $("document").ready(function() {
             //sentence 1
             What1, // first screen               // no next button
             SUP2,
-            INF3,
-
-
+            INF4,
+            /*
             //sentence4
-            What7,
-            SUP11,
-            INF21,
+            What4,
+            SUP4,
+            INF4,
 
             // sentence 3
-            What5,
+            What3,
             SUP8,
-            INF15,
+            INF8,
 
             //sentence 6
-            What11,
-            SUP17,
-            INF33,
+            What6,
+            SUP6,
+            INF6,
 
             //sentence 5
-            What9,
-            SUP14,
-            INF27,
+            What5,
+            SUP5,
+            INF5,
+
+            
 
             //sentence 2
-            What3,
-            SUP5,
-            INF9,
+            What2,
+            SUP2,
+            INF2,
 
             // FILLERS??
 
 
-            // COND 1 (polar comp)
+            // COND 1 (pol comp)
 
             //sentence 4
-            Polar8, // first screen
-            COMP10,
-            INF20,
+            Polar4, // first screen
+            COMP4,
+            INF4,
 
             //sentence6
-            Polar12,
-            COMP16,
-            INF32,
+            Polar6,
+            COMP6,
+            INF6,
 
             // sentence 1
-            Polar2,
+            Polar1,
             COMP1,
-            INF2,
+            INF1,
             
 
             //sentence 2                     // next doesn't work
-            Polar4,
-            COMP4,
-            INF8,
+            Polar2,
+            COMP2,
+            INF2,
 
             //sentence 3
-            Polar6,
-            COMP7,
-            INF14,
+            Polar3,
+            COMP3,
+            INF3,
 
             //sentence 5
-            Polar10,
-            COMP13,
-            INF26,
+            Polar5,
+            COMP5,
+            INF5,
 
 
             // FILLERS??
@@ -129,34 +131,34 @@ $("document").ready(function() {
             // COND 5 (howmany comp)
 
             //sentence 6
-            HowMany12, // first screen
-            COMP18,
-            INF36,
-
-            //sentence 2
-            HowMany4,
+            HowMany6, // first screen
             COMP6,
-            INF12,
-
-            // sentence 4
-            HowMany8,
-            COMP12,
-            INF24,
-
-            //sentence 5
-            HowMany10,
-            COMP15,
-            INF30,
-
-            //sentence 1
-            HowMany2,
-            COMP3,
             INF6,
 
+            //sentence 2
+            HowMany2,
+            COMP2,
+            INF2,
+
+            // sentence 4
+            HowMany4,
+            COMP4,
+            INF4,
+
+            //sentence 5
+            HowMany5,
+            COMP7,
+            INF7,
+
+            //sentence 1
+            HowMany1,
+            COMP1,
+            INF1,
+
             //sentence 3
-            HowMany6,
-            COMP9,
-            INF18,
+            HowMany3,
+            COMP8,
+            INF8,
 
 
             // FILLERS??
@@ -165,29 +167,29 @@ $("document").ready(function() {
             // COND 2 (polar sup)
 
              //sentence 2
-             Polar3, // first screen
-             SUP4,
-             INF7,
+             Polar2, // first screen
+             SUP2,
+             INF2,
  
              //sentence 5
-             Polar9,
-             SUP13,
-             INF25,
+             Polar5,
+             SUP5,
+             INF5,
  
              // sentence 6
-             Polar11,
-             SUP16,
-             INF31,
+             Polar6,
+             SUP6,
+             INF6,
  
              //sentence 3
-             Polar5,
-             SUP7,
-             INF13,
+             Polar3,
+             SUP3,
+             INF3,
  
              //sentence 4
-             Polar7,
-             SUP10,
-             INF19,
+             Polar4,
+             SUP4,
+             INF4,
  
              //sentence 1
              Polar1,
@@ -201,35 +203,35 @@ $("document").ready(function() {
              // COND 6 (Howmany sup)
              
             //sentence 5
-            HowMany9, // first screen
-            SUP15,
-            INF29,
+            HowMany5, // first screen
+            SUP7,
+            INF7,
 
             //sentence 3
-            HowMany5,
-            SUP9,
-            INF17,
+            HowMany3,
+            SUP8,
+            INF8,
 
             // sentence 2
-            HowMany3,
-            SUP6,
-            INF11,
+            HowMany2,
+            SUP2,
+            INF2,
 
             //sentence 1
             HowMany1,
-            SUP3,
-            INF5,
+            SUP1,
+            INF1,
 
             //sentence 6
-            HowMany11,
-            SUP18,
-            INF35,
+            HowMany6,
+            SUP6,
+            INF6,
 
             //sentence 4
-            HowMany7,
-            SUP12,
-            INF23,
-
+            HowMany4,
+            SUP4,
+            INF4,
+*/
 
 
 
