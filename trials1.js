@@ -281,8 +281,8 @@ const trial_info_COMP18 = [
 //Inferences
 const trial_info_INF1 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -290,8 +290,8 @@ const trial_info_INF1 = [
 ];
 const trial_info_INF2 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -299,8 +299,8 @@ const trial_info_INF2 = [
 ];
 const trial_info_INF3 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -308,8 +308,8 @@ const trial_info_INF3 = [
 ];
 const trial_info_INF4 = [
     {
-       optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -317,8 +317,8 @@ const trial_info_INF4 = [
 ];
 const trial_info_INF5 = [
     {
-       optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -326,8 +326,8 @@ const trial_info_INF5 = [
 ];
 const trial_info_INF6 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the diamonds she found under the bed.",
         question: "Do you agree with the judge?",
 
@@ -335,8 +335,8 @@ const trial_info_INF6 = [
 ];
 const trial_info_INF7 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -344,8 +344,8 @@ const trial_info_INF7 = [
 ];
 const trial_info_INF8 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -353,8 +353,8 @@ const trial_info_INF8 = [
 ];
 const trial_info_INF9 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -362,8 +362,8 @@ const trial_info_INF9 = [
 ];
 const trial_info_INF10 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -371,8 +371,8 @@ const trial_info_INF10 = [
 ];
 const trial_info_INF11 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -380,8 +380,8 @@ const trial_info_INF11 = [
 ];
 const trial_info_INF12 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the coins she found on the desk.",
         question: "Do you agree with the judge?",
 
@@ -389,8 +389,8 @@ const trial_info_INF12 = [
 ];
 const trial_info_INF13= [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she found on the floor.",
         question: "Do you agree with the judge?",
 
@@ -398,8 +398,8 @@ const trial_info_INF13= [
 ];
 const trial_info_INF14= [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she found on the floor.",
         question: "Do you agree with the judge?",
 
@@ -407,8 +407,8 @@ const trial_info_INF14= [
 ];
 const trial_info_INF15 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
         question: "Do you agree with the judge?",
 
@@ -416,8 +416,8 @@ const trial_info_INF15 = [
 ];
 const trial_info_INF16 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
         question: "Do you agree with the judge?",
 
@@ -425,8 +425,8 @@ const trial_info_INF16 = [
 ];
 const trial_info_INF17 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
         question: "Do you agree with the judge?",
 
@@ -434,8 +434,8 @@ const trial_info_INF17 = [
 ];
 const trial_info_INF18 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the knives she saw on the floor.",
         question: "Do you agree with the judge?",
 
@@ -443,8 +443,8 @@ const trial_info_INF18 = [
 ];
 const trial_info_INF19 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -452,8 +452,8 @@ const trial_info_INF19 = [
 ];
 const trial_info_INF20 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -461,8 +461,8 @@ const trial_info_INF20 = [
 ];
 const trial_info_INF21 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -470,8 +470,8 @@ const trial_info_INF21 = [
 ];
 const trial_info_INF22 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -479,8 +479,8 @@ const trial_info_INF22 = [
 ];
 const trial_info_INF23 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -488,8 +488,8 @@ const trial_info_INF23 = [
 ];
 const trial_info_INF24 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the masks she saw in the closet.",
         question: "Do you agree with the judge?",
 
@@ -497,8 +497,8 @@ const trial_info_INF24 = [
 ];
 const trial_info_INF25 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the men she saw in the garden.",
         question: "Do you agree with the judge?",
 
@@ -506,8 +506,8 @@ const trial_info_INF25 = [
 ];
 const trial_info_INF26 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the men she saw in the garden.",
         question: "Do you agree with the judge?",
 
@@ -515,8 +515,8 @@ const trial_info_INF26 = [
 ];
 const trial_info_INF27 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the men she saw in the garden.",
         question: "Do you agree with the judge?",
 
@@ -524,8 +524,8 @@ const trial_info_INF27 = [
 ];
 const trial_info_INF28 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the men she saw in the garden.",
         question: "Do you agree with the judge?",
 
@@ -533,8 +533,8 @@ const trial_info_INF28 = [
 ];
 const trial_info_INF29 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the shots she heard in the garden.",
         question: "Do you agree with the judge?",
 
@@ -542,8 +542,8 @@ const trial_info_INF29 = [
 ];
 const trial_info_INF30 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the shots she heard in the garden.",
         question: "Do you agree with the judge?",
 
@@ -551,8 +551,8 @@ const trial_info_INF30 = [
 ];
 const trial_info_INF31 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -560,8 +560,8 @@ const trial_info_INF31 = [
 ];
 const trial_info_INF32 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -569,8 +569,8 @@ const trial_info_INF32 = [
 ];
 const trial_info_INF33 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -578,8 +578,8 @@ const trial_info_INF33 = [
 ];
 const trial_info_INF34 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -587,8 +587,8 @@ const trial_info_INF34 = [
 ];
 const trial_info_INF35 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -596,8 +596,8 @@ const trial_info_INF35 = [
 ];
 const trial_info_INF36 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness does not know exactly how many of the screams she heard in the kitchen.",
         question: "Do you agree with the judge?",
 
@@ -1117,8 +1117,8 @@ const Filler_Ans72= [
 
 const Filler_info1 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it is possible that she found ten of the shoes under the table.",
         question: "Do you agree with the judge?",
 
@@ -1126,8 +1126,8 @@ const Filler_info1 = [
 ];
 const Filler_info2 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it is possible that she found ten of the shoes under the table.",
         question: "Do you agree with the judge?",
 
@@ -1135,8 +1135,8 @@ const Filler_info2 = [
 ];
 const Filler_info3 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1144,8 +1144,8 @@ const Filler_info3 = [
 ];
 const Filler_info4 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1153,8 +1153,8 @@ const Filler_info4 = [
 ];
 const Filler_info5 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1162,8 +1162,8 @@ const Filler_info5 = [
 ];
 const Filler_info6 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven shoes under the table.",
         question: "Do you agree with the judge?",
 
@@ -1171,8 +1171,8 @@ const Filler_info6 = [
 ];
 const Filler_info7 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven shoes under the table.",
         question: "Do you agree with the judge?",
 
@@ -1180,8 +1180,8 @@ const Filler_info7 = [
 ];
 const Filler_info8 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1189,8 +1189,8 @@ const Filler_info8 = [
 ];
 const Filler_info9 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of pills she found on the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1198,8 +1198,8 @@ const Filler_info9 = [
 ];
 const Filler_info10 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1207,8 +1207,8 @@ const Filler_info10 = [
 ];
 const Filler_info11 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of pills she found on the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1216,8 +1216,8 @@ const Filler_info11 = [
 ];
 const Filler_info12 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1225,8 +1225,8 @@ const Filler_info12 = [
 ];
 const Filler_info13 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine of the pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1234,8 +1234,8 @@ const Filler_info13 = [
 ];
 const Filler_info14 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven of the pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1243,8 +1243,8 @@ const Filler_info14 = [
 ];
 const Filler_info15 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1252,8 +1252,8 @@ const Filler_info15 = [
 ];
 const Filler_info16 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven pills on the table.",
         question: "Do you agree with the judge?",
 
@@ -1261,8 +1261,8 @@ const Filler_info16 = [
 ];
 const Filler_info17 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of torches she found in the drawer is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1270,8 +1270,8 @@ const Filler_info17 = [
 ];
 const Filler_info18 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven of the torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1279,8 +1279,8 @@ const Filler_info18 = [
 ];
 const Filler_info19 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1288,8 +1288,8 @@ const Filler_info19 = [
 ];
 const Filler_info20 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of torches she found in the drawer is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1297,8 +1297,8 @@ const Filler_info20 = [
 ];
 const Filler_info21 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine of the torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1306,8 +1306,8 @@ const Filler_info21 = [
 ];
 const Filler_info22 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found nine torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1315,8 +1315,8 @@ const Filler_info22 = [
 ];
 const Filler_info23 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found ten torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1324,8 +1324,8 @@ const Filler_info23 = [
 ];
 const Filler_info24 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found ten torches in the drawer.",
         question: "Do you agree with the judge?",
 
@@ -1333,8 +1333,8 @@ const Filler_info24 = [
 ];
 const Filler_info25 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found ten of the books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1342,8 +1342,8 @@ const Filler_info25 = [
 ];
 const Filler_info26 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of books she found on the shelf is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1351,8 +1351,8 @@ const Filler_info26 = [
 ];
 const Filler_info27 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found eleven books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1360,8 +1360,8 @@ const Filler_info27 = [
 ];
 const Filler_info28 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found ten books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1369,8 +1369,8 @@ const Filler_info28 = [
 ];
 const Filler_info29 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she found ten books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1378,8 +1378,8 @@ const Filler_info29 = [
 ];
 const Filler_info30 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of books she saw on the shelf is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1387,8 +1387,8 @@ const Filler_info30 = [
 ];
 const Filler_info31 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1396,8 +1396,8 @@ const Filler_info31 = [
 ];
 const Filler_info32 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine books on the shelf.",
         question: "Do you agree with the judge?",
 
@@ -1405,8 +1405,8 @@ const Filler_info32 = [
 ];
 const Filler_info33 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1414,8 +1414,8 @@ const Filler_info33 = [
 ];
 const Filler_info34 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1423,8 +1423,8 @@ const Filler_info34 = [
 ];
 const Filler_info35 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw eleven men on the street.",
         question: "Do you agree with the judge?",
 
@@ -1432,8 +1432,8 @@ const Filler_info35 = [
 ];
 const Filler_info36 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine men on the street.",
         question: "Do you agree with the judge?",
 
@@ -1441,8 +1441,8 @@ const Filler_info36 = [
 ];
 const Filler_info37 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten men on the street.",
         question: "Do you agree with the judge?",
 
@@ -1450,8 +1450,8 @@ const Filler_info37 = [
 ];
 const Filler_info38 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1459,8 +1459,8 @@ const Filler_info38 = [
 ];
 const Filler_info39 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten of the men on the street.",
         question: "Do you agree with the judge?",
 
@@ -1468,8 +1468,8 @@ const Filler_info39 = [
 ];
 const Filler_info40 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine of the men on the street.",
         question: "Do you agree with the judge?",
 
@@ -1477,8 +1477,8 @@ const Filler_info40 = [
 ];
 const Filler_info41 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw eleven of the guns in the bag.",
         question: "Do you agree with the judge?",
 
@@ -1486,8 +1486,8 @@ const Filler_info41 = [
 ];
 const Filler_info42 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1495,8 +1495,8 @@ const Filler_info42 = [
 ];
 const Filler_info43 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1504,8 +1504,8 @@ const Filler_info43 = [
 ];
 const Filler_info44 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten guns in the bag.",
         question: "Do you agree with the judge?",
 
@@ -1513,8 +1513,8 @@ const Filler_info44 = [
 ];
 const Filler_info45 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten guns in the bag.",
         question: "Do you agree with the judge?",
 
@@ -1522,8 +1522,8 @@ const Filler_info45 = [
 ];
 const Filler_info46 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1531,8 +1531,8 @@ const Filler_info46 = [
 ];
 const Filler_info47 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine guns in the bag.",
         question: "Do you agree with the judge?",
 
@@ -1540,8 +1540,8 @@ const Filler_info47 = [
 ];
 const Filler_info48 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine guns in the bag.",
         question: "Do you agree with the judge?",
 
@@ -1549,8 +1549,8 @@ const Filler_info48 = [
 ];
 const Filler_info49 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw eleven of the pictures on the wall.",
         question: "Do you agree with the judge?",
 
@@ -1558,8 +1558,8 @@ const Filler_info49 = [
 ];
 const Filler_info50 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1567,8 +1567,8 @@ const Filler_info50 = [
 ];
 const Filler_info51 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1576,8 +1576,8 @@ const Filler_info51 = [
 ];
 const Filler_info52 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
 
@@ -1585,8 +1585,8 @@ const Filler_info52 = [
 ];
 const Filler_info53 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
 
@@ -1594,8 +1594,8 @@ const Filler_info53 = [
 ];
 const Filler_info54 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1603,8 +1603,8 @@ const Filler_info54 = [
 ];
 const Filler_info55 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
 
@@ -1612,8 +1612,8 @@ const Filler_info55 = [
 ];
 const Filler_info56 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw nine pictures on the wall.",
         question: "Do you agree with the judge?",
 
@@ -1621,8 +1621,8 @@ const Filler_info56 = [
 ];
 const Filler_info57 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of rings she saw under the table is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1630,8 +1630,8 @@ const Filler_info57 = [
 ];
 const Filler_info58 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she saw eleven of the rings under the table.",
         question: "Do you agree with the judge?",
 
@@ -1639,8 +1639,8 @@ const Filler_info58 = [
 ];
 const Filler_info59 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
         question: "Do you agree with the judge?",
 
@@ -1648,8 +1648,8 @@ const Filler_info59 = [
 ];
 const Filler_info60 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness thinks the number of beeps she heard in the shower is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1657,8 +1657,8 @@ const Filler_info60 = [
 ];
 const Filler_info61 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard eleven of the beeps in the shower.",
         question: "Do you agree with the judge?",
 
@@ -1666,8 +1666,8 @@ const Filler_info61 = [
 ];
 const Filler_info62 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard nine of the beeps in the shower.",
         question: "Do you agree with the judge?",
 
@@ -1675,8 +1675,8 @@ const Filler_info62 = [
 ];
 const Filler_info63 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
         question: "Do you agree with the judge?",
 
@@ -1684,8 +1684,8 @@ const Filler_info63 = [
 ];
 const Filler_info64 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard ten beeps in the shower.",
         question: "Do you agree with the judge?",
 
@@ -1693,8 +1693,8 @@ const Filler_info64 = [
 ];
 const Filler_info65 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard nine cars on the street.",
         question: "Do you agree with the judge?",
 
@@ -1702,8 +1702,8 @@ const Filler_info65 = [
 ];
 const Filler_info66 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1711,8 +1711,8 @@ const Filler_info66 = [
 ];
 const Filler_info67 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1720,8 +1720,8 @@ const Filler_info67 = [
 ];
 const Filler_info68 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
 
@@ -1729,8 +1729,8 @@ const Filler_info68 = [
 ];
 const Filler_info69 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
 
@@ -1738,8 +1738,8 @@ const Filler_info69 = [
 ];
 const Filler_info70 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
 
@@ -1747,8 +1747,8 @@ const Filler_info70 = [
 ];
 const Filler_info71 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
 
@@ -1756,8 +1756,8 @@ const Filler_info71 = [
 ];
 const Filler_info72 = [
     {
-        optionLeft: "not justified at all",
-        optionRight: "strongly justified",
+        optionLeft: "agree",
+        optionRight: "disagree",
         QUD: "The witness considers it possible that she heard nine cars on the street.",
         question: "Do you agree with the judge?",
 
