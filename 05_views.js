@@ -6,7 +6,8 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  text: `Thank you for participating in our experiment. We hope you have fun.`,
+  text: `Thank you for participating in our experiment. <br>
+   We hope you have fun.`,
   buttonText: 'begin the experiment'
 });
 
@@ -16,16 +17,19 @@ const instructions = magpieViews.view_generator("instructions", {
   name: 'instructions',
   title: 'General Instructions',
   text: `In this exeriment you'll have to imagine that you are in a courtroom. 
-  You'll be presented various sentences always in the same scheme. 
-  The first sentence judges question to the Defendant. 
+  You'll be presented various sentences always in the same scheme: 
+  <br>
+  The first sentence is the judges question to the Defendant. <br>
   If you've finished reading it press the "next" button on the screen. 
+  <br>
   The second sentence will be the Defendants answer, which you'll only see in Parts. 
   You'll have to read each word by it's own and press 
-  the "space"-key when you are finished, to see thee next word. 
-  Attention: You'll only see one word at the time. 
+  the "space"-key when you are finished, to see the next word. 
+  Attention: You'll only see one word at the time.<br>
   If another word appears, the last one will hide.
+  <br>
   The third sentence will be the Judges conclusion. 
-  You'll have to check on a scala of 1 to 10, how much you agree or disagree.`,
+  You'll have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.`,
   buttonText: 'go to trials'
 });
 
