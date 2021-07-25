@@ -6399,6 +6399,35 @@ const Filler_INF65 = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
+
+const Filler_INF66 = magpieViews.view_generator('rating_scale',
+    {
+        trials: Filler_info67.length,
+        name: 'Filler_INF67',
+        data: Filler_info67,
+    },
+    {
+		answer_container_generator: function(config, CT) {
+			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
+					<div class='magpie-view-answer-container'>
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
+						<label for="1" class='magpie-response-rating'>1</label>
+						<input type="radio" name="answer" id="1" value="1" />
+						<label for="2" class='magpie-response-rating'>2</label>
+						<input type="radio" name="answer" id="2" value="2" />
+						<label for="3" class='magpie-response-rating'>3</label>
+						<input type="radio" name="answer" id="3" value="3" />
+						<label for="4" class='magpie-response-rating'>4</label>
+						<input type="radio" name="answer" id="4" value="4" />
+						<label for="5" class='magpie-response-rating'>5</label>
+						<input type="radio" name="answer" id="5" value="5" />
+						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
+					</div>`;
+			}
+	},
+);
+
+
 const Filler_INF67 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info67.length,
