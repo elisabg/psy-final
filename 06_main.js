@@ -615,7 +615,7 @@ $("document").ready(function() {
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "directLink",
             contact_email: "mvillaavila@uos.de",
-            prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
+            //prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
         progress_bar: {
