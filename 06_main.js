@@ -31,6 +31,7 @@ $("document").ready(function() {
             COMP2,
             INF4,
 
+            /*
             // sentence 5
             What10,
             COMP14,
@@ -598,7 +599,7 @@ $("document").ready(function() {
              Filler_Polar15,
              Filler_Answer57,
              Filler_INF57,
-
+            */
 
 
             //list1,
