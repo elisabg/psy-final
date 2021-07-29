@@ -364,7 +364,7 @@ $("document").ready(function() {
              Filler_INF40,
  
              //24
-             Filler_Polar6,
+             Filler_Did6,
              Filler_Answer24,
              Filler_INF24,
  
