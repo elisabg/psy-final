@@ -19,16 +19,16 @@ const instructions = magpieViews.view_generator("instructions", {
   text: `In this exeriment you'll have to imagine that you are in a courtroom. 
   You'll be presented various sentences always in the same scheme: 
   <br>
-  The first sentence is the judges question to the Defendant. <br>
+  The first sentence is the judges question to the defendant. <br>
   If you've finished reading it press the "next" button on the screen. 
   <br>
-  The second sentence will be the Defendants answer, which you'll only see in Parts. 
+  The second sentence will be the defendants answer, which you'll only see in parts. 
   You'll have to read each word by it's own and press 
   the "space"-key when you are finished, to see the next word. 
   Attention: You'll only see one word at the time.<br>
   If another word appears, the last one will hide.
   <br>
-  The third sentence will be the Judges conclusion. 
+  The third sentence will be the judges conclusion. 
   You'll have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.`,
   buttonText: 'go to trials'
 });

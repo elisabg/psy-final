@@ -18,41 +18,40 @@ $("document").ready(function() {
             intro,
             instructions,
 
-            
             // COND 3(what-comp)
 
-            //sentence 3
-            What6, // first screen
+            //sentence16
+            What6, 
             COMP8,
             INF16,
 
-            //sentence1
+            //sentence4
             What2,
             COMP2,
             INF4,
 
-            
-            // sentence 5
+            //sentence28
             What10,
             COMP14,
             INF28,
 
-            //sentence 4
+            //sentence22
             What8,
             COMP11,
             INF22,
 
-            //sentence2
+            //sentence10
             What4,
             COMP5,
             INF10,
 
-            //sentence 6
+            //sentence34
             What12,
             COMP17,
             INF34,
 
-            // FILLER??
+            // FILLER
+
             // 54
             Filler_What14,
             Filler_Answer54,
@@ -68,7 +67,7 @@ $("document").ready(function() {
             Filler_Answer17,
             Filler_INF17,
 
-            // 23
+            //23
             Filler_Did5,
             Filler_Answer23,
             Filler_INF23,
@@ -113,42 +112,40 @@ $("document").ready(function() {
             Filler_Answer8,
             Filler_INF8,
 
-
-
-
             // COND 4 (WHAT SUP)
-            //sentence 1
-            What1, // first screen               // no next button
+
+            //sentence3
+            What1, 
             SUP2,
             INF3,
 
-
-            //sentence4
+            //sentence21
             What7,
             SUP11,
             INF21,
 
-            // sentence 3
+            // sentence15
             What5,
             SUP8,
             INF15,
 
-            //sentence 6
+            //sentence33
             What11,
             SUP17,
             INF33,
 
-            //sentence 5
+            //sentence27
             What9,
             SUP14,
             INF27,
 
-            //sentence 2
+            //sentence9
             What3,
             SUP5,
             INF9,
 
-            // FILLERS??
+            // FILLERS
+
             // 51
             Filler_HowMany13,
             Filler_Answer51,
@@ -209,42 +206,40 @@ $("document").ready(function() {
             Filler_Answer59,
             Filler_INF59,
 
-
             // COND 1 (polar comp)
 
-            //sentence 4
-            Polar8, // first screen
+            //sentence20
+            Polar8,
             COMP10,
             INF20,
 
-            //sentence6
+            //sentence32
             Polar12,
             COMP16,
             INF32,
 
-            // sentence 1
+            //sentence2
             Polar2,
             COMP1,
             INF2,
-            
-
-            //sentence 2                     // next doesn't work
+           
+            //sentence8
             Polar4,
             COMP4,
             INF8,
 
-            //sentence 3
+            //sentence14
             Polar6,
             COMP7,
             INF14,
 
-            //sentence 5
+            //sentence26
             Polar10,
             COMP13,
             INF26,
 
+            // FILLERS
 
-            // FILLERS??
              // 28
              Filler_HowMany8,
              Filler_Answer28,
@@ -260,7 +255,7 @@ $("document").ready(function() {
              Filler_Answer42,
              Filler_INF42,
  
-             // 72
+             //72
              Filler_Did18,
              Filler_Answer72,
              Filler_INF72,
@@ -301,47 +296,43 @@ $("document").ready(function() {
              Filler_INF33,
  
              //70
-             Filler_HowMany18,
+             Filler_What18,
              Filler_Answer70,
              Filler_INF70,
 
-
             // COND 5 (howmany comp)
 
-            //sentence 6
-            HowMany12, // first screen
+            //sentence36
+            HowMany12,
             COMP18,
             INF36,
 
-            //sentence 2
+            //sentence12
             HowMany4,
             COMP6,
             INF12,
 
-            // sentence 4
+            //sentence24
             HowMany8,
             COMP12,
             INF24,
 
-            //sentence 5
+            //sentence30
             HowMany10,
             COMP15,
             INF30,
 
-            //sentence 1
+            //sentence6
             HowMany2,
             COMP3,
             INF6,
 
-            //sentence 3
+            //sentence18
             HowMany6,
             COMP9,
             INF18,
 
-
-
-
-            // FILLERS??
+            // FILLERS
             
              // 30
              Filler_What8,
@@ -364,7 +355,7 @@ $("document").ready(function() {
              Filler_INF40,
  
              //24
-             Filler_Polar6,
+             Filler_Did6,
              Filler_Answer24,
              Filler_INF24,
  
@@ -403,43 +394,39 @@ $("document").ready(function() {
              Filler_Answer38,
              Filler_INF38,
 
-
             // COND 2 (polar sup)
 
-             //sentence 2
-             Polar3, // first screen
+             //sentence7
+             Polar3,
              SUP4,
              INF7,
  
-             //sentence 5
+             //sentence25
              Polar9,
              SUP13,
              INF25,
  
-             // sentence 6
+             //sentence31
              Polar11,
              SUP16,
              INF31,
  
-             //sentence 3
+             //sentence13
              Polar5,
              SUP7,
              INF13,
  
-             //sentence 4
+             //sentence19
              Polar7,
              SUP10,
              INF19,
  
-             //sentence 1
+             //sentence1
              Polar1,
              SUP1,
              INF1,
 
-
-
-
-             // FILLERS??
+             // FILLERS
             
              // 63
              Filler_Did15,
@@ -501,44 +488,39 @@ $("document").ready(function() {
              Filler_Answer9,
              Filler_INF9,
 
-
-
-
-
-
              // COND 6 (Howmany sup)
              
-            //sentence 5
+            //sentence29
             HowMany9, // first screen
             SUP15,
             INF29,
 
-            //sentence 3
+            //sentence17
             HowMany5,
             SUP9,
             INF17,
 
-            // sentence 2
+            //sentence11
             HowMany3,
             SUP6,
             INF11,
 
-            //sentence 1
+            //sentence5
             HowMany1,
             SUP3,
             INF5,
 
-            //sentence 6
+            //sentence35
             HowMany11,
             SUP18,
             INF35,
 
-            //sentence 4
+            //sentence23
             HowMany7,
             SUP12,
             INF23,
 
-            // FILLERS??
+            // FILLERS
             
              // 5
              Filler_HowMany1,
@@ -600,8 +582,6 @@ $("document").ready(function() {
              Filler_Answer57,
              Filler_INF57,
             
-
-
             //list1,
             post_test,
             thanks,
@@ -621,9 +601,337 @@ $("document").ready(function() {
         progress_bar: {
             in: [
                 // list the view-names of the views for which you want a progress bar
+                intro.name,
+            instructions.name,
+            What6.name, 
+            COMP8.name,
+            INF16.name,
+            What2.name,
+            COMP2.name,
+            INF4.name,
+            What10.name,
+            COMP14.name,
+            INF28.name,
+            What8.name,
+            COMP11.name,
+            INF22.name,
+            What4.name,
+            COMP5.name,
+            INF10.name,
+            What12.name,
+            COMP17.name,
+            INF34.name,
+            Filler_What14.name,
+            Filler_Answer54.name,
+            Filler_INF54.name,
+            Filler_HowMany6.name,
+            Filler_Answer20.name,
+            Filler_INF20.name,
+            Filler_Polar5.name,
+            Filler_Answer17.name,
+            Filler_INF17.name,
+            Filler_Did5.name,
+            Filler_Answer23.name,
+            Filler_INF23.name,
+            Filler_HowMany4.name,
+            Filler_Answer14.name,
+            Filler_INF14.name,
+            Filler_Did13.name,
+            Filler_Answer55.name,
+            Filler_INF55.name,
+            Filler_What5.name,
+            Filler_Answer21.name,
+            Filler_INF21.name,
+            Filler_HowMany12.name,
+            Filler_Answer44.name,
+            Filler_INF44.name,
+            Filler_Polar14.name,
+            Filler_Answer50.name,
+            Filler_INF50.name,
+            Filler_HowMany3.name,
+            Filler_Answer13.name,
+            Filler_INF13.name,
+            Filler_Polar18.name,
+            Filler_Answer66.name,
+            Filler_INF66.name,
+            Filler_Did2.name,
+            Filler_Answer8.name,
+            Filler_INF8.name,
+            What1.name, 
+            SUP2.name,
+            INF3.name,
+            What7.name,
+            SUP11.name,
+            INF21.name,
+            What5.name,
+            SUP8.name,
+            INF15.name,
+            What11.name,
+            SUP17.name,
+            INF33.name,
+            What9.name,
+            SUP14.name,
+            INF27.name,
+            What3.name,
+            SUP5.name,
+            INF9.name,
+            Filler_HowMany13.name,
+            Filler_Answer51.name,
+            Filler_INF51.name,
+            Filler_Polar7.name,
+            Filler_Answer25.name,
+            Filler_INF25.name,
+            Filler_HowMany7.name,
+            Filler_Answer27.name,
+            Filler_INF27.name,
+            Filler_What3.name,
+            Filler_Answer11.name,
+            Filler_INF11.name,
+            Filler_Did16.name,
+            Filler_Answer64.name,
+            Filler_INF64.name,
+            Filler_Did7.name,
+            Filler_Answer31.name,
+            Filler_INF31.name,
+            Filler_Did8.name,
+            Filler_Answer32.name,
+            Filler_INF32.name,
+            Filler_HowMany17.name,
+            Filler_Answer67.name,
+            Filler_INF67.name,
+            Filler_HowMany16.name,
+            Filler_Answer60.name,
+            Filler_INF60.name,
+            Filler_Polar13.name,
+            Filler_Answer49.name,
+            Filler_INF49.name,
+            Filler_HowMany2.name,
+            Filler_Answer6.name,
+            Filler_INF6.name,
+            Filler_HowMany15.name,
+            Filler_Answer59.name,
+            Filler_INF59.name,
+            Polar8.name,
+            COMP10.name,
+            INF20.name,
+            Polar12.name,
+            COMP16.name,
+            INF32.name,
+            Polar2.name,
+            COMP1.name,
+            INF2.name,
+            Polar4.name,
+            COMP4.name,
+            INF8.name,
+            Polar6.name,
+            COMP7.name,
+            INF14.name,
+            Polar10.name,
+            COMP13.name,
+            INF26.name,
+             Filler_HowMany8.name,
+             Filler_Answer28.name,
+             Filler_INF28.name,
+             Filler_Did14.name,
+             Filler_Answer56.name,
+             Filler_INF56.name,
+             Filler_Polar12.name,
+             Filler_Answer42.name,
+             Filler_INF42.name,
+             Filler_Did18.name,
+             Filler_Answer72.name,
+             Filler_INF72.name,
+             Filler_Polar10.name,
+             Filler_Answer34.name,
+             Filler_INF34.name,
+             Filler_What9.name,
+             Filler_Answer37.name,
+             Filler_INF37.name,
+             Filler_Polar8.name,
+             Filler_Answer26.name,
+             Filler_INF26.name,
+             Filler_Polar6.name,
+             Filler_Answer18.name,
+             Filler_INF18.name,
+             Filler_Polar16.name,
+             Filler_Answer58.name,
+             Filler_INF58.name,
+             Filler_Polar11.name,
+             Filler_Answer41.name,
+             Filler_INF41.name,
+             Filler_Polar9.name,
+             Filler_Answer33.name,
+             Filler_INF33.name,
+             Filler_What18.name,
+             Filler_Answer70.name,
+             Filler_INF70.name,
+            HowMany12.name,
+            COMP18.name,
+            INF36.name,
+            HowMany4.name,
+            COMP6.name,
+            INF12.name,
+            HowMany8.name,
+            COMP12.name,
+            INF24.name,
+            HowMany10.name,
+            COMP15.name,
+            INF30.name,
+            HowMany2.name,
+            COMP3.name,
+            INF6.name,
+            HowMany6.name,
+            COMP9.name,
+            INF18.name,
+             Filler_What8.name,
+             Filler_Answer30.name,
+             Filler_INF30.name,
+             Filler_Did9.name,
+             Filler_Answer39.name,
+             Filler_INF39.name,
+             Filler_HowMany5.name,
+             Filler_Answer19.name,
+             Filler_INF19.name,
+             Filler_Did10.name,
+             Filler_Answer40.name,
+             Filler_INF40.name,
+             Filler_Did6.name,
+             Filler_Answer24.name,
+             Filler_INF24.name,
+             Filler_What15.name,
+             Filler_Answer61.name,
+             Filler_INF61.name,
+             Filler_What13.name,
+             Filler_Answer53.name,
+             Filler_INF53.name,
+             Filler_Polar1.name,
+             Filler_Answer1.name,
+             Filler_INF1.name,
+             Filler_HowMany9.name,
+             Filler_Answer35.name,
+             Filler_INF35.name,
+             Filler_Did3.name,
+             Filler_Answer15.name,
+             Filler_INF15.name,
+             Filler_What6.name,
+             Filler_Answer22.name,
+             Filler_INF22.name,
+             Filler_What10.name,
+             Filler_Answer38.name,
+             Filler_INF38.name,
+             Polar3.name,
+             SUP4.name,
+             INF7.name,
+             Polar9.name,
+             SUP13.name,
+             INF25.name,
+             Polar11.name,
+             SUP16.name,
+             INF31.name,
+             Polar5.name,
+             SUP7.name,
+             INF13.name,
+             Polar7.name,
+             SUP10.name,
+             INF19.name,
+             Polar1.name,
+             SUP1.name,
+             INF1.name,
+             Filler_Did15.name,
+             Filler_Answer63.name,
+             Filler_INF63.name,
+             Filler_What11.name,
+             Filler_Answer45.name,
+             Filler_INF45.name,
+             Filler_Did1.name,
+             Filler_Answer7.name,
+             Filler_INF7.name,
+             Filler_Did4.name,
+             Filler_Answer16.name,
+             Filler_INF16.name,
+             Filler_What2.name,
+             Filler_Answer4.name,
+             Filler_INF4.name,
+             Filler_What17.name,
+             Filler_Answer69.name,
+             Filler_INF69.name,
+             Filler_HowMany18.name,
+             Filler_Answer68.name,
+             Filler_INF68.name,
+             Filler_Polar17.name,
+             Filler_Answer65.name,
+             Filler_INF65.name,
+             Filler_Did17.name,
+             Filler_Answer71.name,
+             Filler_INF71.name,
+             Filler_HowMany10.name,
+             Filler_Answer36.name,
+             Filler_INF36.name,
+             Filler_Did12.name,
+             Filler_Answer48.name,
+             Filler_INF48.name,
+             Filler_Polar3.name,
+             Filler_Answer9.name,
+             Filler_INF9.name,
+            HowMany9.name, 
+            SUP15.name,
+            INF29.name,
+            HowMany5.name,
+            SUP9.name,
+            INF17.name,
+            HowMany3.name,
+            SUP6.name,
+            INF11.name,
+            HowMany1.name,
+            SUP3.name,
+            INF5.name,
+            HowMany11.name,
+            SUP18.name,
+            INF35.name,
+            HowMany7.name,
+            SUP12.name,
+            INF23.name,
+             Filler_HowMany1.name,
+             Filler_Answer5.name,
+             Filler_INF5.name,
+             Filler_Did11.name,
+             Filler_Answer47.name,
+             Filler_INF47.name,
+             Filler_What1.name,
+             Filler_Answer3.name,
+             Filler_INF3.name,
+             Filler_HowMany14.name,
+             Filler_Answer52.name,
+             Filler_INF52.name,
+             Filler_Polar2.name,
+             Filler_Answer2.name,
+             Filler_INF2.name,
+             Filler_What16.name,
+             Filler_Answer62.name,
+             Filler_INF62.name,
+             Filler_Polar4.name,
+             Filler_Answer10.name,
+             Filler_INF10.name,
+             Filler_What12.name,
+             Filler_Answer46.name,
+             Filler_INF46.name,
+             Filler_HowMany11.name,
+             Filler_Answer43.name,
+             Filler_INF43.name,
+             Filler_What4.name,
+             Filler_Answer12.name,
+             Filler_INF12.name,
+             Filler_What7.name,
+             Filler_Answer29.name,
+             Filler_INF29.name,
+             Filler_Polar15.name,
+             Filler_Answer57.name,
+             Filler_INF57.name,
+            post_test.name,
+            thanks.name,
             ],
              // Possible styles are "default", "separate" and "chunks"
-            style: "separate",
+            style: "default",
             width: 100
         }
     });
