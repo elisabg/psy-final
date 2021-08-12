@@ -786,7 +786,7 @@ const Filler_Ans25= [
 const Filler_Ans26= [
     {
         QUD: "The witness responds:",
-        sentence: "I | found | nearly | ten | of | the | books | on | the | shelf..",
+        sentence: "I | found | nearly | ten | of | the | books | on | the | shelf.",
         option1: "Next",
     },
 ];
@@ -1121,6 +1121,7 @@ const Filler_info1 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it is possible that she found ten of the shoes under the table.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1130,6 +1131,7 @@ const Filler_info2 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it is possible that she found ten of the shoes under the table.",
         question: "Do you agree with the judge?",
+        rating: "5",
 
     }
 ];
@@ -1139,6 +1141,7 @@ const Filler_info3 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
+        rating: "2",
 
     }
 ];
@@ -1148,7 +1151,7 @@ const Filler_info4 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info5 = [
@@ -1157,7 +1160,7 @@ const Filler_info5 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info6 = [
@@ -1166,7 +1169,7 @@ const Filler_info6 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven shoes under the table.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info7 = [
@@ -1175,7 +1178,7 @@ const Filler_info7 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven shoes under the table.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info8 = [
@@ -1184,7 +1187,7 @@ const Filler_info8 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of shoes she found under the table is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info9 = [
@@ -1193,7 +1196,7 @@ const Filler_info9 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of pills she found on the table is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info10 = [
@@ -1202,6 +1205,7 @@ const Filler_info10 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1211,7 +1215,7 @@ const Filler_info11 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of pills she found on the table is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info12 = [
@@ -1220,7 +1224,7 @@ const Filler_info12 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info13 = [
@@ -1229,7 +1233,7 @@ const Filler_info13 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine of the pills on the table.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info14 = [
@@ -1238,7 +1242,7 @@ const Filler_info14 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven of the pills on the table.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info15 = [
@@ -1247,7 +1251,7 @@ const Filler_info15 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine pills on the table.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info16 = [
@@ -1256,7 +1260,7 @@ const Filler_info16 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven pills on the table.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info17 = [
@@ -1265,7 +1269,7 @@ const Filler_info17 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of torches she found in the drawer is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info18 = [
@@ -1274,6 +1278,7 @@ const Filler_info18 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven of the torches in the drawer.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1283,7 +1288,7 @@ const Filler_info19 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven torches in the drawer.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info20 = [
@@ -1292,7 +1297,7 @@ const Filler_info20 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of torches she found in the drawer is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info21 = [
@@ -1301,6 +1306,7 @@ const Filler_info21 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine of the torches in the drawer.",
         question: "Do you agree with the judge?",
+        rating: "2",
 
     }
 ];
@@ -1310,7 +1316,7 @@ const Filler_info22 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found nine torches in the drawer.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info23 = [
@@ -1319,7 +1325,7 @@ const Filler_info23 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found ten torches in the drawer.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info24 = [
@@ -1328,7 +1334,7 @@ const Filler_info24 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found ten torches in the drawer.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info25 = [
@@ -1337,7 +1343,7 @@ const Filler_info25 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found ten of the books on the shelf.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info26 = [
@@ -1346,6 +1352,7 @@ const Filler_info26 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of books she found on the shelf is comparably high.",
         question: "Do you agree with the judge?",
+        rating: "2",
 
     }
 ];
@@ -1355,7 +1362,7 @@ const Filler_info27 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found eleven books on the shelf.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info28 = [
@@ -1364,6 +1371,7 @@ const Filler_info28 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found ten books on the shelf.",
         question: "Do you agree with the judge?",
+        rating: "5",
 
     }
 ];
@@ -1373,7 +1381,7 @@ const Filler_info29 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she found ten books on the shelf.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info30 = [
@@ -1382,7 +1390,7 @@ const Filler_info30 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of books she saw on the shelf is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info31 = [
@@ -1391,7 +1399,7 @@ const Filler_info31 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten books on the shelf.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info32 = [
@@ -1400,7 +1408,7 @@ const Filler_info32 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine books on the shelf.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info33 = [
@@ -1409,7 +1417,7 @@ const Filler_info33 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info34 = [
@@ -1418,7 +1426,7 @@ const Filler_info34 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info35 = [
@@ -1427,7 +1435,7 @@ const Filler_info35 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw eleven men on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info36 = [
@@ -1436,7 +1444,7 @@ const Filler_info36 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine men on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info37 = [
@@ -1445,7 +1453,7 @@ const Filler_info37 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten men on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info38 = [
@@ -1454,7 +1462,7 @@ const Filler_info38 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of men she saw on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info39 = [
@@ -1463,7 +1471,7 @@ const Filler_info39 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten of the men on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info40 = [
@@ -1472,7 +1480,7 @@ const Filler_info40 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine of the men on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info41 = [
@@ -1481,6 +1489,7 @@ const Filler_info41 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw eleven of the guns in the bag.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1490,6 +1499,7 @@ const Filler_info42 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
+        rating:: "2",
 
     }
 ];
@@ -1499,7 +1509,7 @@ const Filler_info43 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info44 = [
@@ -1508,7 +1518,7 @@ const Filler_info44 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten guns in the bag.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info45 = [
@@ -1517,7 +1527,7 @@ const Filler_info45 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten guns in the bag.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info46 = [
@@ -1526,7 +1536,7 @@ const Filler_info46 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info47 = [
@@ -1535,7 +1545,7 @@ const Filler_info47 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine guns in the bag.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info48 = [
@@ -1544,7 +1554,7 @@ const Filler_info48 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine guns in the bag.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info49 = [
@@ -1553,6 +1563,7 @@ const Filler_info49 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw eleven of the pictures on the wall.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1562,6 +1573,7 @@ const Filler_info50 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
+        rating: "2",
 
     }
 ];
@@ -1571,7 +1583,7 @@ const Filler_info51 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info52 = [
@@ -1580,7 +1592,7 @@ const Filler_info52 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info53 = [
@@ -1589,7 +1601,7 @@ const Filler_info53 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info54 = [
@@ -1598,7 +1610,7 @@ const Filler_info54 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of pictures she saw on the wall is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info55 = [
@@ -1607,7 +1619,7 @@ const Filler_info55 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw ten pictures on the wall.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info56 = [
@@ -1616,7 +1628,7 @@ const Filler_info56 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw nine pictures on the wall.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info57 = [
@@ -1625,6 +1637,7 @@ const Filler_info57 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of rings she saw under the table is comparably high.",
         question: "Do you agree with the judge?",
+        rating: "4",
 
     }
 ];
@@ -1634,6 +1647,7 @@ const Filler_info58 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she saw eleven of the rings under the table.",
         question: "Do you agree with the judge?",
+        rating: "1",
 
     }
 ];
@@ -1643,7 +1657,7 @@ const Filler_info59 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info60 = [
@@ -1652,7 +1666,7 @@ const Filler_info60 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of beeps she heard in the shower is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info61 = [
@@ -1661,7 +1675,7 @@ const Filler_info61 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard eleven of the beeps in the shower.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 const Filler_info62 = [
@@ -1670,7 +1684,7 @@ const Filler_info62 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard nine of the beeps in the shower.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info63 = [
@@ -1679,7 +1693,7 @@ const Filler_info63 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard eleven beeps in the shower.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info64 = [
@@ -1688,7 +1702,7 @@ const Filler_info64 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard ten beeps in the shower.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info65 = [
@@ -1697,7 +1711,7 @@ const Filler_info65 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard nine cars on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info66 = [
@@ -1706,7 +1720,7 @@ const Filler_info66 = [
         optionRight: "strongly justified",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info67 = [
@@ -1715,7 +1729,7 @@ const Filler_info67 = [
         optionRight: "strongly justified",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info68 = [
@@ -1724,7 +1738,7 @@ const Filler_info68 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "2",
     }
 ];
 const Filler_info69 = [
@@ -1733,7 +1747,7 @@ const Filler_info69 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info70 = [
@@ -1742,7 +1756,7 @@ const Filler_info70 = [
         optionRight: "strongly justified",
         QUD: ": The witness thinks the number of cars she heard on the street is comparably high.",
         question: "Do you agree with the judge?",
-
+        rating: "4",
     }
 ];
 const Filler_info71 = [
@@ -1751,7 +1765,7 @@ const Filler_info71 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard ten cars on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "5",
     }
 ];
 const Filler_info72 = [
@@ -1760,7 +1774,7 @@ const Filler_info72 = [
         optionRight: "strongly justified",
         QUD: "The witness considers it possible that she heard nine cars on the street.",
         question: "Do you agree with the judge?",
-
+        rating: "1",
     }
 ];
 

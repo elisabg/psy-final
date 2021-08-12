@@ -2468,7 +2468,7 @@ const Filler_Polar11 = magpieViews.view_generator(
 	{
 		trials: 1,
 		name: 'Filler_Polar11',
-		text: `Did you certainly see more ten of the guns in the bag?`,
+		text: `Did you certainly see more than ten of the guns in the bag?`,
 	},
 	{
 		stimulus_container_generator: function(config, CT) {
