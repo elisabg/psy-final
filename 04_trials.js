@@ -1499,7 +1499,7 @@ const Filler_info42 = [
         optionRight: "strongly justified",
         QUD: "The witness thinks the number of guns she saw in the bag is comparably high.",
         question: "Do you agree with the judge?",
-        rating:: "2",
+        rating: "2",
 
     }
 ];
