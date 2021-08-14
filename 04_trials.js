@@ -39,61 +39,207 @@ const info_Pol2 = [
 const info_Pol3 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you find at most ten of the coins on the desk?",
     }
 ];
 const info_Pol4 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you find at most ten of the coins on the desk?",
     }
 ];
 const info_Pol5 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you find at most ten of the knives on the floor?",
     }
 ];
 const info_Pol6 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you find at most ten of the knives on the floor?",
     }
 ];
 const info_Pol7 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you see at most ten of the masks in the closet?",
     }
 ];
 const info_Pol8 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you see at most ten of the masks in the closet?",
     }
 ];
 const info_Pol9 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you see at most ten of the men in the garden?",
     }
 ];
 const info_Pol10 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you see at most ten of the men in the garden?",
     }
 ];
-const info_Pol1 = [
+const info_Pol11 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you hear at most ten of the screams in the kitchen?",
     }
 ];
-const info_Pol1 = [
+const info_Pol12 = [
     {
         option1: "Next",
-		question: "Did you find at most ten of the diamonds under the bed?",
+		question: "Did you hear at most ten of the screams in the kitchen?",
+    }
+];
+//WHAT QUD
+const info_What1 = [
+    {
+        option1: "Next",
+		question: "What did you find under the bed?",
+    }
+];
+const info_What2 = [
+    {
+        option1: "Next",
+		question: "What did you find under the bed?",
+    }
+];
+const info_What3 = [
+    {
+        option1: "Next",
+		question: "What did you find on the desk?",
+    }
+];
+const info_What4 = [
+    {
+        option1: "Next",
+		question: "What did you find on the desk?",
+    }
+];
+const info_What5 = [
+    {
+        option1: "Next",
+		question: "What did you see on the floor?",
+    }
+];
+const info_What6 = [
+    {
+        option1: "Next",
+		question: "What did you see on the floor?",
+    }
+];
+const info_What7 = [
+    {
+        option1: "Next",
+		question: "What did you see in the closet?",
+    }
+];
+const info_What8 = [
+    {
+        option1: "Next",
+		question: "What did you see in the closet?",
+    }
+];
+const info_What9 = [
+    {
+        option1: "Next",
+		question: "What did you see in the garden?",
+    }
+];
+const info_What10 = [
+    {
+        option1: "Next",
+		question: "What did you see in the garden?",
+    }
+];
+const info_What11 = [
+    {
+        option1: "Next",
+		question: "What did you hear in the kitchen?",
+    }
+];
+const info_What12 = [
+    {
+        option1: "Next",
+		question: "What did you hear in the kitchen?",
+    }
+];
+//How Many QUD
+const info_HM1 = [
+    {
+        option1: "Next",
+		question: "How many of the diamonds did you find under the bed?",
+    }
+];
+const info_HM2 = [
+    {
+        option1: "Next",
+		question: "How many of the diamonds did you find under the bed?",
+    }
+];
+const info_HM3 = [
+    {
+        option1: "Next",
+		question: "How many of the coins did you find on the desk?",
+    }
+];
+const info_HM4 = [
+    {
+        option1: "Next",
+		question: "How many of the coins did you find on the desk?",
+    }
+];
+const info_HM5 = [
+    {
+        option1: "Next",
+		question: "How many of the knives did you see on the floor?",
+    }
+];
+const info_HM6 = [
+    {
+        option1: "Next",
+		question: "How many of the knives did you see on the floor?",
+    }
+];
+const info_HM7 = [
+    {
+        option1: "Next",
+		question: "How many of the masks did you see in the closet?",
+    }
+];
+const info_HM8 = [
+    {
+        option1: "Next",
+		question: "How many of the masks did you see in the closet?",
+    }
+];
+const info_HM9 = [
+    {
+        option1: "Next",
+		question: "How many of the shots did you hear in the garden?",
+    }
+];
+const info_HM10 = [
+    {
+        option1: "Next",
+		question: "How many of the shots did you hear in the garden?",
+    }
+];
+const info_HM11 = [
+    {
+        option1: "Next",
+		question: "How many of the screams did you hear in the kitchen?",
+    }
+];
+const info_HM12 = [
+    {
+        option1: "Next",
+		question: "How many of the screams did you hear in the kitchen?",
     }
 ];
 
@@ -678,6 +824,445 @@ const trial_info_INF36 = [
 ];
 
 // FILLER ITEMS **CORRECT**
+
+// QUD
+
+//Polar
+const F_Polar1 = [
+     {
+        option1: "Next",
+		question: "Did you find more than ten of the shoes under the table?",
+     }
+];
+const F_Polar2 = [
+     {
+        option1: "Next",
+		question: "Did you find nearly ten of the shoes under the table?",
+     }
+];
+const F_Polar3 = [
+     {
+        option1: "Next",
+		question: "Did you find more than ten pills on the table?",
+     }
+];
+const F_Polar4 = [
+     {
+        option1: "Next",
+		question: "Did you find approximately ten pills on the table?",
+     }
+];
+const F_Polar5 = [
+     {
+        option1: "Next",
+		question: "Did you certainly find only ten of the torches in the drawer?",
+     }
+];
+const F_Polar6 = [
+     {
+        option1: "Next",
+		question: "Did you find more than ten of the torches in the drawer?",
+     }
+];
+const F_Polar7 = [
+     {
+        option1: "Next",
+		question: "Did you find more than ten of the books on the shelf?",
+     }
+];
+const F_Polar8 = [
+     {
+        option1: "Next",
+		question: "Did you certainly find nearly ten of the books on the shelf?",
+     }
+];
+const F_Polar9 = [
+    {
+        option1: "Next",
+		question: "Did you see only ten men on the street?",
+    }
+];
+const F_Polar10 = [
+     {
+        option1: "Next",
+		question: "Did you certainly see nearly ten of the men on the street?",
+     }
+];
+const F_Polar11 = [
+     {
+        option1: "Next",
+		question: "Did you certainly see more than ten of the guns in the bag?",
+     }
+];
+const F_Polar12 = [
+    {
+        option1: "Next",
+		question: "Did you see nearly ten of the guns in the bag?",
+    }
+];
+const F_Polar13 = [
+    {
+        option1: "Next",
+		question: "Did you certainly see more than ten of the pictures on the wall?",
+    }
+];
+const F_Polar14 = [
+     {
+        option1: "Next",
+		question: "Did you see nearly ten of the pictures on the wall?",
+     }
+];
+const F_Polar15 = [
+     {
+        option1: "Next",
+		question: "Did you see only ten rings under the table?",
+     }
+];
+const F_Polar16 = [
+    {
+        option1: "Next",
+		question: "Did you see more than ten of the rings under the table?",
+    }
+];
+const F_Polar17 = [
+    {
+        option1: "Next",
+		question: "Did you hear more than ten cars on the street?",
+    }
+];
+const F_Polar18 = [
+     {
+        option1: "Next",
+		question: "Did you hear nearly ten cars on the street?",
+     }
+];
+// What
+const F_What1 = [
+    {
+        option1: "Next",
+		question: "What did you find under the table?",
+    }
+];
+const F_What2 = [
+    {
+        option1: "Next",
+		question: "What did you find under the table?",
+    }
+];
+const F_What3 = [
+    {
+        option1: "Next",
+		question: "What did you find on the table?",
+    }
+];
+const F_What4 = [
+    {
+        option1: "Next",
+		question: "What did you find on the table?",
+    }
+];
+const F_What5 = [
+    {
+        option1: "Next",
+		question: "What did you find in the drawer?",
+    }
+];
+const F_What6 = [
+    {
+        option1: "Next",
+		question: "What did you find in the drawer?",
+    }
+];
+const F_What7 = [
+    {
+        option1: "Next",
+		question: "What did you find on the shelf?",
+    }
+];
+const f_What8 = [
+    {
+        option1: "Next",
+		question: "What did you find on the shelf?",
+    }
+];
+const F_What9 = [
+    {
+        option1: "Next",
+		question: "What did you see on the street?",
+    }
+];
+const F_What10 = [
+    {
+        option1: "Next",
+		question: "What did you see on the street?",
+    }
+];
+const F_What11 = [
+    {
+        option1: "Next",
+		question: "What did you see in the bag?",
+    }
+];
+const F_What12 = [
+    {
+        option1: "Next",
+		question: "What did you see in the bag?",
+    }
+];
+const F_What13 = [
+    {
+        option1: "Next",
+		question: "What did you see on the wall?",
+    }
+];
+const F_What14 = [
+    {
+        option1: "Next",
+		question: "What did you see on the wall?",
+    }
+];
+const F_What15 = [
+    {
+        option1: "Next",
+		question: "What did you hear in the shower?",
+    }
+];
+const F_What16 = [
+    {
+        option1: "Next",
+		question: "What did you hear in the shower?",
+    }
+];
+const F_What17 = [
+    {
+        option1: "Next",
+		question: "What did you hear on the street?",
+    }
+];
+const F_What18 = [
+    {
+        option1: "Next",
+		question: "What did you hear on the street?",
+    }
+];
+//How Many
+const F_HM1 = [
+    {
+        option1: "Next",
+		question: "How many shoes did you find under the table?",
+    }
+];
+const F_HM2 = [
+    {
+        option1: "Next",
+		question: "How many shoes did you find under the table?",
+    }
+];
+const F_HM3 = [
+    {
+        option1: "Next",
+		question: "How many of the pills did you find on the table?",
+    }
+];
+const F_HM4 = [
+    {
+        option1: "Next",
+		question: "How many of the pills did you find on the table?",
+    }
+];
+const F_HM5 = [
+    {
+        option1: "Next",
+		question: "How many of the torches did you find in the drawer?",
+    }
+];
+const F_HM6 = [
+    {
+        option1: "Next",
+		question: "How many torches did you find in the drawer?",
+    }
+];
+const F_HM7 = [
+    {
+        option1: "Next",
+		question: "How many books did you find on the shelf?",
+    }
+];
+const F_HM8 = [
+    {
+        option1: "Next",
+		question: "How many books did you see on the shelf?",
+    }
+];
+const F_HM9 = [
+    {
+        option1: "Next",
+		question: "How many men did you see on the street?",
+    }
+];
+const F_HM10 = [
+    {
+        option1: "Next",
+		question: "How many men did you see on the street?",
+    }
+];
+const F_HM11 = [
+    {
+        option1: "Next",
+		question: "How many guns did you see in the bag?",
+    }
+];
+const F_HM12 = [
+    {
+        option1: "Next",
+		question: "How many guns did you see in the bag?",
+    }
+];
+const F_HM13 = [
+    {
+        option1: "Next",
+		question: "How many pictures did you see on the wall?",
+    }
+];
+const F_HM14 = [
+    {
+        option1: "Next",
+		question: "How many pictures did you see on the wall?",
+    }
+];
+const F_HM15 = [
+    {
+        option1: "Next",
+		question: "How many of the beeps did you hear in the shower?",
+    }
+];
+const F_HM16 = [
+    {
+        option1: "Next",
+		question: "How many of the beeps did you hear in the shower?",
+    }
+];
+const F_HM17 = [
+    {
+        option1: "Next",
+		question: "How many cars did you hear on the street?",
+    }
+];
+const F_HM18 = [
+    {
+        option1: "Next",
+		question: "How many cars did you hear on the street?",
+    }
+];
+// Did
+const F_Did1 = [
+    {
+        option1: "Next",
+		question: "Did you find ten shoes under the table?",
+    }
+];
+const F_Did2 = [
+    {
+        option1: "Next",
+		question: "Did you find ten shoes under the table?",
+    }
+];
+const F_Did3 = [
+    {
+        option1: "Next",
+		question: "Did you certainly find ten pills on the table?",
+    }
+];
+const F_Did4 = [
+    {
+        option1: "Next",
+		question: "Did you find ten pills on the table?",
+    }
+];
+const F_Did5 = [
+    {
+        option1: "Next",
+		question: "Did you find ten torches in the drawer?",
+    }
+];
+const F_Did6 = [
+    {
+        option1: "Next",
+		question: "Did you find ten torches in the drawer?",
+    }
+];
+const F_Did7 = [
+    {
+        option1: "Next",
+		question: "Did you see ten books on the shelf?",
+    }
+];
+const F_Did8 = [
+    {
+        option1: "Next",
+		question: "Did you see ten books on the shelf?",
+    }
+];
+const F_Did9 = [
+    {
+        option1: "Next",
+		question: "Did you see ten of the men on the street?",
+    }
+];
+const F_Did10 = [
+    {
+        option1: "Next",
+		question: "Did you see ten of the men on the street?",
+    }
+];
+const F_Did11 = [
+    {
+        option1: "Next",
+		question: "Did you see ten guns in the bag?",
+    }
+];
+const F_Did12 = [
+    {
+        option1: "Next",
+		question: "Did you see ten guns in the bag?",
+    }
+];
+const F_Did13 = [
+    {
+        option1: "Next",
+		question: "Did you see ten pictures on the wall?",
+    }
+];
+const F_Did14 = [
+    {
+        option1: "Next",
+		question: "Did you see ten pictures on the wall?",
+    }
+];
+const F_Did15 = [
+    {
+        option1: "Next",
+		question: "Did you hear ten beeps in the shower?",
+    }
+];
+const F_Did16 = [
+    {
+        option1: "Next",
+		question: "Did you hear ten beeps in the shower?",
+    }
+];
+const F_Did17 = [
+    {
+        option1: "Next",
+		question: "Did you hear ten cars on the street?",
+    }
+];
+const F_Did18 = [
+    {
+        option1: "Next",
+		question: "Did you hear ten cars on the street?",
+    }
+];
 
 //Answers
 
