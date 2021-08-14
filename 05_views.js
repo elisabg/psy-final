@@ -106,23 +106,25 @@ const validity_task = magpieViews.view_generator('rating_scale',
 
 //Polar questions
 const Polar1 = magpieViews.view_generator(
-	"intro", 
+	"forced_choice", 
 	//config information
 	{
-		trials: 1,
+		trials: info_Pol1.length,
 		name: 'Polar1',
-		text: `Did you find at most ten of the diamonds under the bed?`,
+		data: info_Pol1
+		
 	},
 	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
+		answer_container_generator: function (config, CT) {
+        return `<div class='magpie-view-answer-container'>
+                    <p class='magpie-view-question'>${config.data[CT].question}</p>
+                    <label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+                    <input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+                </div>`;
 		}
-	}
+	},
 );
+
 const Polar2 = magpieViews.view_generator(
 	"intro", 
 	//config information

@@ -19,7 +19,7 @@ $("document").ready(function() {
             instructions,
 
             // COND 3(what-comp)
-
+            /*
             //sentence16
             What6, 
             COMP8,
@@ -420,7 +420,7 @@ $("document").ready(function() {
              Polar7,
              SUP10,
              INF19,
- 
+ */
              //sentence1
              Polar1,
              SUP1,

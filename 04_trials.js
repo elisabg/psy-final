@@ -23,6 +23,79 @@ const third_screen = [
 */
 
 //MAIN TRIALS **CORRECT ORDER**
+//POLAR QUD 
+const info_Pol1 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol2 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol3 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol4 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol5 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol6 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol7 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol8 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol9 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol10 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol1 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
+const info_Pol1 = [
+    {
+        option1: "Next",
+		question: "Did you find at most ten of the diamonds under the bed?",
+    }
+];
 
 //SUP Answers
 const trial_info_SUP1 = [
