@@ -169,12 +169,12 @@ const Polar4 = magpieViews.view_generator(
 		data: info_Pol4,
 	},
 	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
+		answer_container_generator: function (config, CT) {
+        return `<div class='magpie-view-answer-container'>
+                    <p class='magpie-view-question'>${config.data[CT].question}</p>
+                    <label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+                    <input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+                </div>`;
 		}
 	}
 );
