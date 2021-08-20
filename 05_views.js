@@ -16,7 +16,7 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `In this exeriment you'll have to imagine that you are in a courtroom. 
+  text: `In this experiment you'll have to imagine that you are in a courtroom. 
   You'll be presented various sentences always in the same scheme: 
   <br>
   The first sentence is the judges question to the defendant. <br>
@@ -29,7 +29,9 @@ const instructions = magpieViews.view_generator("instructions", {
   If another word appears, the last one will hide.
   <br>
   The third sentence will be the judges conclusion. 
-  You'll have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.`,
+  You'll have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.
+  <br>
+  Mind that you can not close the tap until you finish the experiment, without all of your progress being lost.`,
   buttonText: 'go to trials'
 });
 
