@@ -455,8 +455,8 @@ $("document").ready(function() {
  
              //69
              Filler_What17,
-             Filler_Answer69,
-             Filler_INF69,
+             Filler_Answer67,
+             Filler_INF67,
  
              //68
              Filler_HowMany18,
@@ -863,8 +863,8 @@ $("document").ready(function() {
              Filler_Answer4.name,
              Filler_INF4.name,
              Filler_What17.name,
-             Filler_Answer69.name,
-             Filler_INF69.name,
+             Filler_Answer67.name,
+             Filler_INF67.name,
              Filler_HowMany18.name,
              Filler_Answer70.name,
              Filler_INF70.name,
